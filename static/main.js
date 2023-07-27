@@ -45,6 +45,37 @@ console.log(
     "color: #fff; background: #fd79a8; padding:5px 0;",
     "background: #FFF; padding:5px 0;"
   );
+  //控制台输出
+//console.clear();
+let styleTitle1 = `
+font-size: 20px;
+font-weight: 600;
+color: rgb(244,167,89);
+`
+let styleTitle2 = `
+font-size:12px;
+color: rgb(244,167,89);
+`
+let styleContent = `
+color: rgb(30,152,255);
+`
+let title1 = '二次元卡片个人网站主页'
+let title2 = `
+
+█░█ █▀▀█ █░░█ █▀▀▀ █▀▀▄ 
+█▀▄ █▄▄█ █▄▄█ █░▀█ █▀▀▄ 
+▀░▀ ▀░░▀ ▄▄▄█ ▀▀▀▀ ▀▀▀░ 
+                                                
+`
+let content = `
+版 本 号：1.2.0
+更新日期：2022-09-17
+
+主页:  https://blog.170601.xyz/archives/25.html
+Github:  https://github.com/kaygb/KZHomePage
+`
+console.log(`%c${title1} %c${title2}
+%c${content}`, styleTitle1, styleTitle2, styleContent);
 // 兼容旧版
 if(meting_music_api===""){
     meting_api = "https://api.mizore.cn/meting/api.php";

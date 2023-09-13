@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我们</title>
+  <style>
+    /* 添加你的自定义样式 */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    .product-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10%; /* 添加圆角属性 */
+    }
+    
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .feature {
+      flex-basis: 30%;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.5s;
+    }
+
+    .feature h3 {
+      color: #333;
+    }
+
+    .feature p {
+      color: #666;
+    }
+
+    .cta-button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .cta-button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: transform 0.3s, box-shadow 0.5s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature:hover h3,
+    .feature:hover p {
+      display: none;
+    }
+    
+
+    .feature:hover::after {
+      content: attr(data-content);
+      display: block;
+      color: #666;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .feature:hover::after {
+      content: attr(data-content);
+      display: block;
+      color: #666;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .feature:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature:active::after {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>关于我们</h1>
+    <div class="product-image">
+      <img src="img\头像.jpg" alt="产品图片">
+    </div>
+    <p>关于工作室</p>
+    <div class="features">
+      <div class="feature" id="feature-1" data-content="枫叶：游戏核心开发，框架，玩法，剧情主要人员" data-url="http://fengyegf.cn/">
+        <h3>游戏制作</h3>
+        <p>枫叶</p>
+      </div>
+      <div class="feature" id="feature-2" data-content="小权：运营，发展方向，建模，场景，贴图" data-url="https://xiaoqvan.top/">
+        <h3>核心人员</h3>
+        <p>小权</p>
+      </div>
+      <div class="feature" id="feature-3" data-content="原画：人物素材，配色，ui，人物绘画" data-url="404.html">
+        <h3>原画</h3>
+        <p>口工老师</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  // 获取所有具有 data-url 属性的 feature 元素
+  const features = document.querySelectorAll('.feature[data-url]');
+
+  // 为每个 feature 元素添加点击事件监听器
+  features.forEach(feature => {
+    feature.addEventListener('click', () => {
+      // 获取 data-url 属性的值
+      const url = feature.getAttribute('data-url');
+      
+      // 在当前窗口中打开链接
+      window.location.href = url;
+    });
+  });
+</script>
+</html>

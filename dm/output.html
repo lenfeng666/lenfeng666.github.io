@@ -1,0 +1,256 @@
+<html><head><title>每日番剧详细</title><style>
+    .anime-container {
+        position: relative;
+        display: inline-block;
+        margin: 3px; /* 设置图片容器之间的间距 */
+        overflow: hidden;
+    }
+
+    .anime-title-container {
+        position: absolute;
+        content: ""; /* 伪元素的内容为空 */
+        left: 0;
+        top: 0; /* 将 top 设为 0，使文字背景在图片顶部 */
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.3); /* 半透明背景颜色 */
+        backdrop-filter: blur(10px); /* 添加模糊玻璃效果 */
+        transition: transform 1.5s ease; /* 添加过渡效果 */
+    }
+
+.anime-title-container {
+    border-top-left-radius: 10px; /* 添加左上角的圆角 */
+    border-top-right-radius: 10px; /* 添加右上角的圆角 */
+    transition: transform 1.5s ease, border-radius 1.5s ease; /* 添加过渡效果 */
+}
+
+.anime-image:hover ~ .anime-title-container {
+    transform: translateY(100%); /* 向下移动文字背景以保持顶部对齐 */
+    border-top-left-radius: 0; /* 取消左上角的圆角 */
+    border-top-right-radius: 0; /* 取消右上角的圆角 */
+}
+
+    .anime-title {
+        text-align: center; /* 居中文字 */
+    }
+
+
+    .anime-image {
+        width: 300px;
+        height: 410px; /* 设置统一的高度 */
+        object-fit: cover; /* 填充整个框，保持纵横比，可能会被裁剪 */
+        border-radius: 10px; /* 添加10px的圆角 */
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; /* 图片底部对齐 */
+        margin-bottom: 7px; /* 适当的间距 */
+    }
+
+    .today-header {
+        background-color: #ccc; /* 灰色背景 */
+        border-radius: 5px; /* 圆角 */
+        display: inline-block; /* 让标题只占据内容的宽度 */
+        padding: 5px 10px; /* 适当的内边距 */
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* 阴影效果 */
+    }
+
+.anime-image {
+    width: 300px;
+    height: 410px; /* 设置统一的高度 */
+    object-fit: cover; /* 填充整个框，保持纵横比，可能会被裁剪 */
+    border-radius: 10px; /* 添加10px的圆角 */
+    transition: box-shadow 0.3s ease, transform 1.5s ease; /* 添加过渡效果 */
+}
+
+.anime-image:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+    transform: scale(1.05); /* 放大图片 */
+}
+
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // 生成1到10的随机数
+        var randomNum = Math.floor(Math.random() * 10) + 1;
+
+        // 设置背景图片链接
+        var backgroundImageUrl = 'https://xiaoqvan.top/zhuye/img/background' + randomNum + '.webp';
+
+        // 应用背景样式
+        document.body.style.backgroundImage = 'url(' + backgroundImageUrl + ')';
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
+    });
+
+    // 添加鼠标悬停效果
+    var animeContainers = document.querySelectorAll('.anime-container');
+
+    animeContainers.forEach(function(container) {
+        container.addEventListener('mouseenter', function() {
+            this.classList.add('hovered');
+        });
+
+        container.addEventListener('mouseleave', function() {
+            this.classList.remove('hovered');
+        });
+    });
+</script>
+</head><body>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td style="background: rgba(255, 255, 255, 0.7); border-bottom: 1px solid #ccc; padding: 10px 20px; border-radius: 5px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                        <img src="https://www.dandanplay.com/img/logo.png" alt="网站Logo" style="max-height: 50px;">
+                    </td>
+                    <td>
+                        <a href="https://github.com/XQxiaoqvan/Daily-drama-push" style="text-decoration: none; color: #333; font-size: 16px;">
+                            GitHub
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+            <div class='flex-container'>
+                <h1 class='today-header'>星期天</h1>
+            </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/15625_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>偶像大师 百万现场！</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17031_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>猪肝记得煮熟再吃</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17263_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>狩龙人拉格纳</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17264_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>FLCL: Grunge</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17265_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>FLCL: Shoegaze</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17355_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>七大罪 默示录的四骑士</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17501_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>香格里拉·弗陇提亚～屎作猎人向神作发起挑战～</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17608_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>堤亚穆帝国物语～从断头台开始，公主重生后的逆转人生～</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17614_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>凹凸魔女的母女故事</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17832_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>ドッグシグナル</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17870_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>药屋少女的呢喃</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17878_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>靠着魔法药水在异世界活下去!</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17906_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>超超超超喜欢你的100个女孩子</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17930_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>足球小将 第二季 世少篇</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/17944_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>归还者的魔法要特别</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/18015_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>柚木家的四兄弟。</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/18105_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>我们的雨色协议</div>
+              </div>
+          </div>
+        
+           <div class='anime-container'>
+              <img class='anime-image' src='https://img.dandanplay.net/anime/18182_medium.jpg'>
+              <div class='anime-title-container'>
+                  <div class='anime-title'>小不点</div>
+              </div>
+          </div>
+        <p>生成日期：2023-10-08 21:16:11</p></body></html>

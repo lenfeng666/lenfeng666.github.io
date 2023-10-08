@@ -3,7 +3,7 @@ name: Run Python script
 on:
   schedule:
     - cron:  '0 2 * * *' # 每天北京时间10点运行
-    - cron:  '0 16 * * *' # 每天北京时间12点运行
+    - cron:  '0 16 * * *' # 每天北京时间0点运行
   workflow_dispatch: # 手动触发工作流
 
 jobs:

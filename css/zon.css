@@ -1,3 +1,4 @@
+
 .bg{
 	 position: fixed;
 	  top: 0;
@@ -6,7 +7,7 @@
 	  height: 100%;
 	  z-index: -1; /* 将背景置于内容下方 */
 	  object-fit: cover; /* 以裁剪的方式填充整个容器 */
-
+	  background-color: #ff7f50;
 }
 /* 顶部栏样式 */
 .topbar {
@@ -109,7 +110,6 @@ body {
     padding: 15px;
     background: #fff;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
     color: #000;
 	
 }
@@ -120,15 +120,23 @@ body {
     right: 100px;
     bottom: 100px;
     left: 100px;
-	background-size: cover;
-	background-position: center;
-	padding: 50px; /* 添加内边距以创建与元素边缘的距离 */
-	box-sizing: border-box; /* 确保内边距不会增加元素的尺寸 */
-    border-radius: 10px; /* 添加圆角效果 */
-	background-color: rgba(255, 255, 255, 0.1);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    font-weight: bold;
+    overflow: auto; /* 添加滚动效果 */
+    min-height: 200px; /* 设置最小高度 */
 }
 
 .zx {
-  font-size: 10px; /* 文字大小 */
+  font-size: 20px; /* 文字大小 */
   font-weight: bold; /* 文字粗细 */
+}
+.zx::-webkit-scrollbar {
+    width: 0; /* Safari 和 Chrome */
+    display: none; /* 隐藏滚动条 */
 }

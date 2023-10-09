@@ -21,7 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests pytz
+        pip install requests pytz beautifulsoup4
 
     - name: Run Python Script
       run: |

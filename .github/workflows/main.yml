@@ -1,0 +1,46 @@
+name: Run Python Script
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 16 * * *' 
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        pip install requests pytz beautifulsoup4
+
+    - name: Run Python Script
+      run: |
+        python dm/更新.py
+        python dm/pc.py
+
+    - name: Move generated HTML
+      run: |
+        mv zy.html dm/
+        mv output.html dm/
+
+    - name: commit
+      run: |
+        git config --global user.email 827737456@qq.com
+        git config --global user.name lenfeng666
+        git add .
+        git commit -m "update" -a
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,32 +1,46 @@
-name: Run Python script
+name: Run Python Script
 
 on:
-  schedule:
-    - cron:  '0 2 * * *' # 每天北京时间10点运行
-    - cron:  '0 16 * * *' # 每天北京时间0点运行
-  workflow_dispatch: # 手动触发工作流
+  workflow_dispatch:
 
+  schedule:
+    - cron: '1 16 * * *' 
+    
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout code
+    - name: Checkout Repository
       uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install requests pytz
 
-    - name: Run update.py at 10:00
-      run: python dm/update.py
-      if: github.event_name == 'schedule' && github.event.schedule == '0 2 * * *'
+    - name: Run Python Script
+      run: |
+        python dm/更新.py
+        python dm/pc.py
 
-    - name: Run pc.py at 10:00 and 12:00
-      run: python dm/pc.py
+    - name: Move generated HTML
+      run: |
+        mv zy.html dm/
+        mv output.html dm/
+
+    - name: commit
+      run: |
+        git config --global user.email 827737456@qq.com
+        git config --global user.name lenfeng666
+        git add .
+        git commit -m "update" -a
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

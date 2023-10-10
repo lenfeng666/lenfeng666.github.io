@@ -1,15 +1,73 @@
-document.addEventListener('mousemove', function(e) {
-    var sidebarLeft = document.getElementById('sidebarLeft');
-    var sidebarRight = document.getElementById('sidebarRight');
-    if (e.clientX < 50) {
+var sidebarVisible = false;
+
+function applyStyles() {
+  var screenWidth = window.innerWidth;
+
+  if (screenWidth <= 600) {
+    // 应用手机样式
+    document.addEventListener('mousemove', function(e) {
+      var sidebarLeft = document.getElementById('sidebarLeft');
+      var sidebarRight = document.getElementById('sidebarRight');
+      
+      if (!sidebarVisible) {
+        if (e.clientX < 50) {
+          sidebarLeft.style.width = '100px';
+          sidebarVisible = true;
+        } else if (e.clientX > window.innerWidth - 50) {
+          sidebarRight.style.width = '100px';
+          sidebarVisible = true;
+        }
+      } else {
+        if (e.clientX < 50 || e.clientX > window.innerWidth - 50) {
+          sidebarLeft.style.width = '0';
+          sidebarRight.style.width = '0';
+          sidebarVisible = false;
+        }
+      }
+    });
+  } else {
+    // 应用电脑样式
+    document.addEventListener('mousemove', function(e) {
+      var sidebarLeft = document.getElementById('sidebarLeft');
+      var sidebarRight = document.getElementById('sidebarRight');
+      
+      if (e.clientX < 50) {
         sidebarLeft.style.width = '200px';
-    } else if (e.clientX > window.innerWidth - 50) {
+      } else if (e.clientX > window.innerWidth - 50) {
         sidebarRight.style.width = '200px';
-    } else {
+      } else {
         sidebarLeft.style.width = '0';
         sidebarRight.style.width = '0';
-    }
-});
+      }
+    });
+  }
+}
+// 在页面加载和窗口大小改变时调用applyStyles函数
+window.addEventListener("load", applyStyles);
+window.addEventListener("resize", applyStyles);
+
+
+
+function updateProgress(progressBar, percentage) {
+    progressBar.style.width = `${percentage}%`;
+}
+
+// 自动加载进度条
+const progressBar1 = document.getElementById('progress1');
+const progressBar2 = document.getElementById('progress2');
+const progressBar3 = document.getElementById('progress3');
+
+setTimeout(() => {
+    updateProgress(progressBar1, 50);
+}, 1000);
+
+setTimeout(() => {
+    updateProgress(progressBar2, 75);
+}, 2000);
+
+setTimeout(() => {
+    updateProgress(progressBar3, 25);
+}, 3000);
 
 // 获取中心标题元素
 const centerTitle = document.getElementById('centerTitle');
@@ -41,6 +99,12 @@ navLinks.forEach((link) => {
                 .then(response => response.text())
                 .then(data => {
                     centerContent.innerHTML = data;
+                    // 重新加载进度条
+                    setTimeout(() => {
+                        updateProgress(progressBar1, 50);
+                        updateProgress(progressBar2, 75);
+                        updateProgress(progressBar3, 25);
+                    }, 500);
                 })
                 .catch(error => {
                     centerContent.innerHTML = `<iframe src="${page}" style="width:100%;height:100%;border:none;"></iframe>`;

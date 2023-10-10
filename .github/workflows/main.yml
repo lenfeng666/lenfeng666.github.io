@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '1 16 * * *' # 这是你原来的时间
-    - cron: '0 21 * * *' # 每天的21:00
-    - cron: '0 4 * * *'  # 每天的04:00
-    - cron: '0 12 * * *' # 每天的12:00
+    - cron: '1 16 * * *'
+    - cron: '0 21 * * *'
+    - cron: '0 4 * * *'
+    - cron: '0 12 * * *'
 
 jobs:
   build:
@@ -28,10 +28,15 @@ jobs:
 
     - name: Run Python Script
       run: |
-        if [[ "$(date +'%H')" == "16" ]]; then
+        current_hour=$(date +"%H")
+        if [ "$current_hour" = "16" ]; then
           python dm/更新.py
           python dm/pc.py
-        elif [[ "$(date +'%H')" == "21" || "$(date +'%H')" == "04" || "$(date +'%H')" == "12" ]]; then
+        elif [ "$current_hour" = "21" ]; then
+          python dm/pc.py
+        elif [ "$current_hour" = "4" ]; then
+          python dm/pc.py
+        elif [ "$current_hour" = "12" ]; then
           python dm/pc.py
         fi
 

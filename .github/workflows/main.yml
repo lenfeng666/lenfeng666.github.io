@@ -4,11 +4,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '1 16 * * *'
-    - cron: '0 21 * * *'
-    - cron: '0 4 * * *'
-    - cron: '0 12 * * *'
-
+    - cron: '1 16 * * *' 
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,17 +25,8 @@ jobs:
 
     - name: Run Python Script
       run: |
-        current_hour=$(date +"%H")
-        if [ "$current_hour" = "16" ]; then
-          python dm/更新.py
-          python dm/pc.py
-        elif [ "$current_hour" = "21" ]; then
-          python dm/pc.py
-        elif [ "$current_hour" = "4" ]; then
-          python dm/pc.py
-        elif [ "$current_hour" = "12" ]; then
-          python dm/pc.py
-        fi
+        python dm/更新.py
+        python dm/pc.py
 
     - name: Move generated HTML
       run: |

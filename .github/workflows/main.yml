@@ -4,11 +4,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '1 16 * * *' # 这是你原来的时间
-    - cron: '0 21 * * *' # 每天的21:00
-    - cron: '0 4 * * *'  # 每天的04:00
-    - cron: '0 12 * * *' # 每天的12:00
-
+    - cron: '1 16 * * *' 
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,12 +25,8 @@ jobs:
 
     - name: Run Python Script
       run: |
-        if [[ "$(date +'%H')" == "16" ]]; then
-          python dm/更新.py
-          python dm/pc.py
-        elif [[ "$(date +'%H')" == "21" || "$(date +'%H')" == "04" || "$(date +'%H')" == "12" ]]; then
-          python dm/pc.py
-        fi
+        python dm/更新.py
+        python dm/pc.py
 
     - name: Move generated HTML
       run: |

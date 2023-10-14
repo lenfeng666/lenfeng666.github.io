@@ -26,11 +26,9 @@ jobs:
     - name: Run Python Script
       run: |
         python dm/更新.py
-        python dm/pc.py
 
     - name: Move generated HTML
       run: |
-        mv zy.html dm/
         mv output.html dm/
 
     - name: commit

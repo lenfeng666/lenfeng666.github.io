@@ -69,7 +69,6 @@
 	  height: 100%;
 	  z-index: -1; /* 将背景置于内容下方 */
 	  object-fit: cover; /* 以裁剪的方式填充整个容器 */
-	  background-color: #ff7f50;
 }
 /* 顶部栏样式 */
 .topbar {
@@ -146,7 +145,7 @@ body {
     transition: 1.3s;
     z-index: 1;
     border-radius: 0 30px 30px 0;
-    background: linear-gradient(to bottom, #ff7f50, #1e90ff); /* 添加渐变背景 */
+    background: linear-gradient(to bottom, rgba(224, 224, 224, 0.8), rgba(128, 128, 128, 0)); /* 使用带透明效果的磨砂色渐变 */
 }
 
 #sidebarLeft {

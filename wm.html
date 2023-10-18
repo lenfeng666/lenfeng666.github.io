@@ -87,52 +87,76 @@
     }
 .card .text {
   border-radius: 10px; /* 修改卡片的圆角 */
-  width: 340px; /* 控制宽度 */
-} @media screen and (min-width: 768px) {
-      .navbar {
-        padding: 50px; /* 根据需要调整电脑端样式 */
-      }
+  width: 330px; /* 控制宽度 */
+}
 
-      .navbar img {
-        width: 150px; /* 根据需要调整电脑端样式 */
-        height: 150px; /* 根据需要调整电脑端样式 */
-      }
+@media screen and (min-width: 600px) {
+  .navbar {
+    padding: 50px; /* 电脑端样式：根据需要调整电脑端样式 */
+  }
 
-      .navbar .text {
-        top: 150px; /* 根据需要调整电脑端样式 */
-      }
+  .navbar img {
+    width: 150px; /* 电脑端样式：根据需要调整电脑端样式 */
+    height: 150px; /* 电脑端样式：根据需要调整电脑端样式 */
+  }
 
-      .card {
-        width: 500px; /* 根据需要调整电脑端样式 */
-        height: 300px; /* 根据需要调整电脑端样式 */
+  .navbar .text {
+    top: 150px; /* 电脑端样式：根据需要调整电脑端样式 */
+  }
 
+  .card {
+    width: 500px; /* 电脑端样式：根据需要调整电脑端样式 */
+    height: 300px; /* 电脑端样式：根据需要调整电脑端样式 */
+  }
+
+  .card .text {
+    border-radius: 15px; /* 电脑端样式：修改卡片的圆角 */
+    width: 480px; /* 电脑端样式：控制宽度 */
+  }
+}
   </style>
 </head>
 <body>
   <div class="navbar">
     <a href="#news">
-      <img src="img/tx.jpg" alt="枫叶:">
+      <img src="img/tx.jpg" alt="枫叶:游戏核心开发,剧情,场景搭建,后端服务">
       <div class="red-line"></div>
       <div class="text">枫叶</div>
     </a>
     <a href="#contact">
-      <img src="https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9tZW5taWFvY3ktbXkuc2hhcmVwb2ludC5jb20vOmk6L3AveGlhb3F2YW5fMzY1L0VYV0U5TjAzS2tSS3ByRmZkd2JFVzJBQkVnaVN4ZFRyb1pLZ3c0T0RBMHdqZ0E_ZT1WbHBnN00.jpg" alt="xaioqvan:">
+      <img src="https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9tZW5taWFvY3ktbXkuc2hhcmVwb2ludC5jb20vOmk6L3AveGlhb3F2YW5fMzY1L0VYV0U5TjAzS2tSS3ByRmZkd2JFVzJBQkVnaVN4ZFRyb1pLZ3c0T0RBMHdqZ0E_ZT1WbHBnN00.jpg" alt="xaioqvan:游戏策划,项目核心人员,服务器管理">
       <div class="red-line"></div>
       <div class="text">xaioqvan</div>
     </a>
     <a href="#about">
-      <img src="img/3.jpg" alt="绅士王:">
+      <img src="img/3.jpg" alt="绅士王:游戏原画师">
       <div class="red-line"></div>
       <div class="text">绅士王</div>
     </a>
   </div>
   <div class="card">
     <img src="" alt="">
-    <div class="text"></div>
+    <div class="text">枫叶</div>
   </div>
   <script>
     $(document).ready(function() {
       var selectedImage = null;
+      var typingInterval = 100; // 控制打字速度的间隔时间（以毫秒为单位）
+      var typingTimeout;
+
+      function typeText(text, element) {
+        var index = 0;
+        element.text(''); // 清空文字内容
+        typingTimeout = setInterval(function() {
+          element.text(element.text() + text.charAt(index));
+          index++;
+          if (index >= text.length) {
+            clearInterval(typingTimeout);
+          }
+        }, typingInterval);
+      }
+
+      // 保留图片控制部分的代码
       $('.navbar img').hover(function() {
         var colorThief = new ColorThief();
         var img = $(this)[0];
@@ -140,7 +164,7 @@
         $('body').css('background-color', 'rgb(' + color[0] + ',' + color[1] + ',' + color[2] + ')');
         $('.card').css('opacity', '1');
         $('.card img').attr('src', $(this).attr('src'));
-        $('.card .text').text($(this).attr('alt'));
+        $('.card .text').text($('.text', $(this).closest('a')).text());
         $('.card .text').css('transform', 'translateY(100%)'); /* 默认隐藏文字 */
       }, function() {
         if (selectedImage != this) {
@@ -148,12 +172,14 @@
           $('.card').css('opacity', '0');
         }
       });
+
+      // 点击图片时输出alt标签里的内容
       $('.navbar img').click(function() {
         selectedImage = this;
         $('.card .text').css('transform', 'translateY(0)'); /* 点击图片后显示文字 */
-      });
-      $('.navbar a').click(function(e) {
-        e.preventDefault();
+        // 在点击图片后，开始以打字机形式输出alt标签内容
+        var altText = $(this).attr('alt');
+        typeText(altText, $('.card .text'));
       });
     });
   </script>

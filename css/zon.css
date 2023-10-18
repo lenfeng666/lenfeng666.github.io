@@ -262,3 +262,29 @@ progress {
         width: auto; /* 标题宽度自适应内容 */
     }
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 46px;
+    backdrop-filter: blur(10px);
+    background: rgb(0 0 0 / 25%);
+}
+
+#footer a {
+    text-decoration: none;
+    color: #ffffff;  /* 你想要的颜色 */
+}
+.power {
+    line-height: 46px;
+    color: #eeeeee;
+    animation: fade;
+    -webkit-animation: fade 0.75s;
+    -moz-animation: fade 0.75s;
+    -o-animation: fade 0.75s;
+    -ms-animation: fade 0.75s;
+}
+svg {
+    vertical-align: middle;
+}

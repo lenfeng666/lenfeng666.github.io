@@ -113,3 +113,53 @@ navLinks.forEach((link) => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var checkExist = setInterval(function() {
+        var myhkplayer = document.getElementById('myhkplayer');
+        var myhkLrcDiv = document.getElementById('myhkLrc');
+        var powerDiv = document.querySelector('.power');
+        var foorerMusicDiv = document.querySelector('#foorer-music');
+
+        if (myhkLrcDiv && myhkplayer) {
+            var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'childList' || (mutation.type === 'attributes' && mutation.target === myhkplayer && mutation.attributeName === 'class')) {
+                        var myhknowElement = myhkLrcDiv.querySelector('.myhknow');
+
+                        if (myhknowElement && myhkplayer.classList.contains('playing')) {
+                            foorerMusicDiv.innerHTML = '<i class="fa-brands fa-tiktok"></i> ' + myhknowElement.innerText + ' <i class="fa-brands fa-tiktok"></i>';
+                            foorerMusicDiv.style.display = 'block';
+                            powerDiv.style.display = 'none';
+                        } else {
+                            foorerMusicDiv.style.display = 'none';
+                            powerDiv.style.display = 'block';
+                        }
+                    }
+                });
+            });
+
+            var config = { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] };
+            observer.observe(myhkLrcDiv, config);
+            observer.observe(myhkplayer, config);
+
+            clearInterval(checkExist);
+        }
+    }, 100); // check every 100ms
+});
+  // 隐藏明月浩空
+document.addEventListener('DOMContentLoaded', function() {
+  var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+          if (mutation.type === 'childList') {
+              var myhkLrcDiv = document.getElementById('myhkLrc');
+              if (myhkLrcDiv) {
+                  myhkLrcDiv.style.cssText = 'display: none;';
+              }
+          }
+      });
+  });
+
+  var config = { childList: true, subtree: true };
+  observer.observe(document.body, config);
+});

@@ -1,95 +1,139 @@
+<!--
+ * @Date: 2024-01-08 10:58:44
+ * @LastEditors: XQxiaoqvan xiaoqvandd@qq.com
+ * @LastEditTime: 2024-01-08 21:57:22
+-->
 <!DOCTYPE html>
-<html>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- FontAwesome -->
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-	<head>
-		<img class="bg"/>
-		<link rel="stylesheet" type="text/css" href="css/zon.css">
-	    <link rel="icon" href="./favicon.ico">
-		<meta charset="utf-8" />
-		<title>枫叶</title>
-	</head>
-<div class="topbar">
-    <div class="bt">
-        <div class="scrolling-image">
-            <img src="img/tx.jpg" style="width: 50px; height: 50px; border-radius: 50%;" />
-        </div>
-        <h1>枫叶个人博客</h1>
-    </div>
-    <div class="topbar1">
-        <a href="#">首页</a>
-        <a href="wm.html">关于我们</a>
-        <a href="http://wpa.qq.com/msgrd?v=3&uin=3545184062&site=CSDN&menu=yes">联系我们</a>
-    </div>
-</div>
-<body>
+<html lang="zh-CN">
 
-</body>
 <head>
-    <style>
-        body {
-        background-image: url("img/1.jpg");
-        background-size: cover; /* 同时从两侧裁剪以填满屏幕 */
-        background-repeat: no-repeat; /* 禁止图片重复 */
-        background-attachment: fixed; /* 图片不会随滚动而移动 */
-        background-position: center; /* 图片居中显示 */
-        }
-    </style>
-	<!-- Clarity tracking code for https://fengyegf.cn/ -->
-	<script>
-	    (function(c,l,a,r,i,t,y){
-	        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-	        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-	        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-	    })(window, document, "clarity", "script", "k4kgwlkqmv");
-	</script>
-</head>
-<table>
-<div class="zx">
-	<h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页模板</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FontAwesome图标库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <!-- 引入jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Izitoast -->
+    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/izitoast/1.4.0/css/iziToast.min.css">
+    <script type="text/javascript" src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/izitoast/1.4.0/js/iziToast.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/music.js"></script>
 
-	</h1>
-</div>
+</head>
 
 <body>
-	<div class="sidebar" id="sidebarLeft">
-	        <div class="navbar" id="navbarLeft">
-	            <a href="#" class="nav-link" data-content="介绍" data-page="sj/introduce.html">介绍</a>
-	            <a href="#" class="nav-link" data-content="技能" data-page="sj/skill.html">技能</a>
-				<a href="#" class="nav-link" data-content="表情包" data-page="https://fengyegf.com.cn/output.html">表情包</a>
-	        </div>
-	    </div>
-	    <div class="sidebar" id="sidebarRight">
-	        <div class="navbar" id="navbarRight">
-	            <a href="#" class="nav-link" data-content="资源" data-page="https://fengyegf.com.cn/dm/zy.html">资源</a>
-	            <a href="#" class="nav-link" data-content="信息" data-page="https://xiaoqvan.top/fanjv/">信息</a>
-	            <a href="#" class="nav-link" data-content="文章" data-page="template/wz.html">文章</a>
-				<a href="https://fengyegf.com.cn/wp/yunpan.html">网盘</a>
-	        </div>
-	    </div>
-	<div class="zx">
-	    <h1 id="centerTitle"></h1>
-	    <div id="centerContent">
-	    </div>
-	</div>
-	    <script src="js/script.js"></script>
-</body>
-<script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script>
-		
-<script src="https://myhkw.cn/api/player/1690054729100" id="myhk" key="1690054729100" m="1">
-</script>
-<footer id="footer" class="fixed-bottom footer">
-            <div class="power">
-                <span id="power">Copyright&nbsp;©
-                    <script>
-                        document.write((new Date()).getFullYear());
-                    </script>
-                    <a href="https://github.com/lenfeng666" id="power-text">枫叶</a>
-                </span>
-                <!-- 站点备案 -->
-                <a href="https://beian.miit.gov.cn" id="beian" target="_blank">&amp;&nbsp;蜀ICP备2023029817号-1</a>
+    <!-- 背景 -->
+    <div class="bg-all">
+        <img src="img/1.jpg" alt="bg">
+        <!-- 下方为背景灰色蒙版 -->
+        <!-- <div class="overlay"></div> -->
+    </div>
+    <div class="main-all">
+        <div class="main">
+            <!-- 第一屏 -->
+            <div class="tx-all">
+                <!-- 基本信息 -->
+                <div class="tx">
+                    <img src="img/tx.jpg" alt="">
+                    <h1>枫叶</h1>
+                    <div class="tx-content">
+                        <p>你好</p>
+                        <p>欢迎来到我的个人主页</p>
+                    </div>
+                </div>
+                <!--社交链接-->
+                <div class="relation">
+                    <div>
+                        <a href="" title="添加QQ">
+                            <i class="fa-brands fa-qq"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" title="前往GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" title="前往x-twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" title="前往Telegram">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div id="foorer-music" class="power"></div>
-        </footer>
+            <!-- 第二屏 -->
+            <div class="yiyan">
+                <!-- 一言 -->
+                <div class="hitokoto-all" id="hitokoto-content">
+                    <div class="hitokoto-text"><span id="hitokoto_text">权酱是个大吃货</span></div>
+                    <div class="hitokoto-from">-「 <span id="from_text">xiaoqvan</span> 」</div>
+                </div>
+            </div>
+            <!-- 第三屏 -->
+            <div class="main-3">
+                <!-- 时间 -->
+                <div class="timeshow" id="time">
+                    <span class="time-text">00:00:00</span>
+                    <div class="time-info">
+                        <span> 0000&nbsp;年&nbsp;0&nbsp;月&nbsp;00&nbsp;日&nbsp;</span>
+                        <span class="weekday">星期一</span>
+                    </div>
+                </div>
+                <!-- 音乐播放器 -->
+                <div class="music-bfq">
+                    <div>
+                        <img id="album-art" src="https://via.placeholder.com/150?text=%20" alt="album-art">
+                    </div>
+                    <div class="music-content">
+                        <div class="music-info">
+                            <h1 class="player-info">音乐播放器 - 加载中</h1>
+                        </div>
+                        <div class="music-button">
+                            <i class="fas fa-step-backward fa-xs" onclick="handlePrevButtonClick()"></i>
+                            <i class="fas fa-play fa-xs" onclick="handlePlayButtonClick()"></i>
+                            <i class="fas fa-pause fa-xs" onclick="handlePauseButtonClick()"></i>
+                            <i class="fas fa-step-forward fa-xs" onclick="handleNextButtonClick()"></i>
+                        </div>
+                        <div class="music-progress">
+                            <progress class="music-progress-bar" id="musicprogress-bar" value="0" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather">
+                    <div class="weather-icon">
+                        <img src="https://weather.cma.cn/static/img/w/icon/w0.png" alt="weather">
+                    </div>
+                    <div class="weather-content">
+                        <span id="city_text">天气</span>&nbsp;
+                        <span id="wea_text">加载失败</span>&nbsp;
+                        <span id="tem_text"></span>
+                        <span id="win_text">详细</span>
+                        <span id="win_speed">控制台</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 底部栏 -->
+    <footer>
+        <!-- 版权信息 -->
+        <span id="power">Copyright&nbsp;&copy;
+            <script>
+                document.write((new Date()).getFullYear());
+            </script>
+            <a href="#" id="power-text">枫叶</a>
+        </span>
+        <!-- 备案信息 -->
+        <a rel="noopener" href="https://beian.miit.gov.cn" id="beian" target="_blank"> &amp;&nbsp;蜀ICP备2023029817号-1</a>
+    </footer>
+</body>
+
+
 </html>

@@ -8,9 +8,9 @@
 // 明月浩空播放器引入
 $(document).ready(function() {
     var myhkScript = $('<script/>', {
-        src: 'https://myhkw.cn/api/player/168460845260',
+        src: 'https://myhkw.cn/api/player/1690054729100',
         id: 'myhk',
-        key: '168460845260',
+        key: '1690054729100',
         m: '1'
     });
 

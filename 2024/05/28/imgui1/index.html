@@ -22,7 +22,7 @@
 
   
 
-  <title>SQL注入攻击原理 | 枫叶个人博客</title>
+  <title>初学imgui | 枫叶个人博客</title>
 
   
 
@@ -51,7 +51,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url(https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8QQhtpdELCA1xw1_?e=ygSvQQ)"></div>
+    <div class="post-image" style="background-image: url(https://onedrive.live.com/embed?resid=2182F48B953D36F8%2114495&amp;authkey=%21AEBBqhavlMupP9s&amp;width=8175&amp;height=4809)"></div>
   
 
   <!-- navbar -->
@@ -102,17 +102,12 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">SQL注入攻击原理</h1>
+          <h1 class="title-wrap">初学imgui</h1>
           <h2 class="title-sub-wrap">
             <strong>John Doe</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2024-02-09T11:44:41.000Z" itemprop="datePublished">2024-02-09</time>
+            <time  class="article-date" datetime="2024-05-28T00:26:56.000Z" itemprop="datePublished">2024-05-28</time>
           </h2>
-          
-            <h2 class="last-time">
-              <span>最后更新于</span>
-              <time  class="article-updated" datetime="2024-02-11T08:05:12.920Z" itemprop="dateUpdated">2024-02-11</time>
-            </h2>
           
           
           <ul class="wrap-list dark">
@@ -120,7 +115,7 @@
 </ul>
           <ul class="wrap-list dark">
   
-    <li><a href="/tags/kali%E6%95%99%E5%AD%A6/">🏷️ kali教学</a></li>
+    <li><a href="/tags/imgui%E6%95%99%E7%A8%8B/">🏷️ imgui教程</a></li>
   
 </ul>
         </div>
@@ -144,82 +139,33 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <p>大家好，本期教学内容为SQL注入攻击原理，主要讲解SQL注入攻击的原理，以及如何利用SQL注入攻击来获取数据库中的敏感信息。<br>在此申明本网站的所有内容仅供学习使用，若用于其他用途，请自行承担风险，网站攻击需要网站管理员授权同意，并且只是找出漏洞而非勒索</p>
-<h2 id="SQL注入攻击原理"><a href="#SQL注入攻击原理" class="headerlink" title="SQL注入攻击原理"></a>SQL注入攻击原理</h2><p>SQL注入攻击是通过在输入框中输入SQL语句来获取数据库中的敏感信息，例如数据库名、表名、字段名、表中的数据等。</p>
-<h2 id="那么我们开始教学"><a href="#那么我们开始教学" class="headerlink" title="那么我们开始教学"></a>那么我们开始教学</h2><p>首先启动kali，并切换到root用户，方便我们操作</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">su</span><br></pre></td></tr></table></figure>
-<h2 id="切换后我们首先验证我们是否安装了sql注入工具"><a href="#切换后我们首先验证我们是否安装了sql注入工具" class="headerlink" title="切换后我们首先验证我们是否安装了sql注入工具"></a>切换后我们首先验证我们是否安装了sql注入工具</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlmap -h</span><br></pre></td></tr></table></figure>
+        <h3 id="imgui是一个开源的轻量图形库"><a href="#imgui是一个开源的轻量图形库" class="headerlink" title="imgui是一个开源的轻量图形库"></a>imgui是一个开源的轻量图形库</h3><h3 id="本期教程如何搭建一个imgui的运行框架和环境配置"><a href="#本期教程如何搭建一个imgui的运行框架和环境配置" class="headerlink" title="本期教程如何搭建一个imgui的运行框架和环境配置"></a>本期教程如何搭建一个imgui的运行框架和环境配置</h3><h2 id="用到的工具有Microsoft-Visual-Studio和imgui轻量库"><a href="#用到的工具有Microsoft-Visual-Studio和imgui轻量库" class="headerlink" title="用到的工具有Microsoft Visual Studio和imgui轻量库"></a>用到的工具有<a target="_blank" rel="noopener" href="https://visualstudio.microsoft.com/zh-hans/">Microsoft Visual Studio</a>和<a target="_blank" rel="noopener" href="https://github.com/ocornut/imgui">imgui轻量库</a></h2><h3 id="1-下载Microsoft-Visual-Studio创建一个c-的空项目"><a href="#1-下载Microsoft-Visual-Studio创建一个c-的空项目" class="headerlink" title="1.下载Microsoft Visual Studio创建一个c++的空项目"></a>1.下载Microsoft Visual Studio创建一个c++的空项目</h3><h3 id="2-下载imgui将源码解压到你的项目录下，当然也可以放在任意位置，我们只会用一部分进行调用"><a href="#2-下载imgui将源码解压到你的项目录下，当然也可以放在任意位置，我们只会用一部分进行调用" class="headerlink" title="2.下载imgui将源码解压到你的项目录下，当然也可以放在任意位置，我们只会用一部分进行调用"></a>2.下载imgui将源码解压到你的项目录下，当然也可以放在任意位置，我们只会用一部分进行调用</h3><h3 id="3-在项目中添加imgui的文件步骤如下：1，右键你的项目的解决方案列表中的项目，然后会看到选择添加，新建筛选器如图"><a href="#3-在项目中添加imgui的文件步骤如下：1，右键你的项目的解决方案列表中的项目，然后会看到选择添加，新建筛选器如图" class="headerlink" title="3.在项目中添加imgui的文件步骤如下：1，右键你的项目的解决方案列表中的项目，然后会看到选择添加，新建筛选器如图"></a>3.在项目中添加imgui的文件步骤如下：1，右键你的项目的解决方案列表中的项目，然后会看到选择添加，新建筛选器如图</h3><img src="https://onedrive.live.com/embed?resid=2182F48B953D36F8%2114497&authkey=%21AJdIeDBgrBXXEuo&width=719&height=854" width="719" height="854" />
 
-    <figure class="figure-image">
-      <img src="https://fy-yun.github.io/api/wp/img/kali.png" alt="如果我们安装了的话kali界面显示的是如图所示" loading="lazy" />
-      <figcaption>如果我们安装了的话kali界面显示的是如图所示</figcaption>
-    </figure>
-  
-<p>如果没安装我们直接输入sqlmap然后回车，kali会问我们是否安装我们输入y回车即可<br>如果装备工作完成那么我们就开始学习如何进行攻击了</p>
-<h2 id="首先找到一个合法授权了的网站，我这边是用的掌控者的网站"><a href="#首先找到一个合法授权了的网站，我这边是用的掌控者的网站" class="headerlink" title="首先找到一个合法授权了的网站，我这边是用的掌控者的网站"></a>首先找到一个合法授权了的网站，我这边是用的掌控者的网站</h2><p>一个专门学习的网站，当然你可以自己搭建一个，但是为了方便我直接用的这个网站<br>首先我们拿到他给的网站，然后我们开始输入命令进行攻击</p>
-<h2 id="我们首先输入命令"><a href="#我们首先输入命令" class="headerlink" title="我们首先输入命令"></a>我们首先输入命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlmap -u <span class="string">&quot;这里放入网站地址&quot;</span></span><br></pre></td></tr></table></figure>
-<h2 id="然后回车看看有那些漏洞"><a href="#然后回车看看有那些漏洞" class="headerlink" title="然后回车看看有那些漏洞"></a>然后回车看看有那些漏洞</h2>
-    <figure class="figure-image">
-      <img src="https://fy-yun.github.io/api/wp/img/kali1.png" alt="如图所示，存在漏洞我们尝试查看数据库类型" loading="lazy" />
-      <figcaption>如图所示，存在漏洞我们尝试查看数据库类型</figcaption>
-    </figure>
-  
-<h2 id="我们尝试查看数据库类型"><a href="#我们尝试查看数据库类型" class="headerlink" title="我们尝试查看数据库类型"></a>我们尝试查看数据库类型</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlmap -u <span class="string">&quot;这里放入网站地址&quot;</span> --dbs</span><br></pre></td></tr></table></figure>
-<h2 id="然后回车看看是否有数据库"><a href="#然后回车看看是否有数据库" class="headerlink" title="然后回车看看是否有数据库"></a>然后回车看看是否有数据库</h2>
-    <figure class="figure-image">
-      <img src="https://fy-yun.github.io/api/wp/img/kali2.png" alt="如图，我们发现他有3个数据库网站是以猫为原型开发的我们看谁和猫关系最近，我们发现里面有一个数据库是maoshe" loading="lazy" />
-      <figcaption>如图，我们发现他有3个数据库网站是以猫为原型开发的我们看谁和猫关系最近，我们发现里面有一个数据库是maoshe</figcaption>
-    </figure>
-  
-<p>由此可见，主要数据库应该就是这个了</p>
-<h2 id="我们尝试查看这个数据库中的表"><a href="#我们尝试查看这个数据库中的表" class="headerlink" title="我们尝试查看这个数据库中的表"></a>我们尝试查看这个数据库中的表</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlmap -u <span class="string">&quot;这里放入网站地址&quot;</span> -D <span class="string">&quot;这里放入数据库名&quot;</span> --tables</span><br></pre></td></tr></table></figure>
-<h2 id="然后回车看看是否有表"><a href="#然后回车看看是否有表" class="headerlink" title="然后回车看看是否有表"></a>然后回车看看是否有表</h2>
-    <figure class="figure-image">
-      <img src="https://fy-yun.github.io/api/wp/img/kali3.png" alt="然后我们发现有4个表，看名字我们就知道admin是管理员的用户名，所以我们要尝试看管理员的用户名和密码" loading="lazy" />
-      <figcaption>然后我们发现有4个表，看名字我们就知道admin是管理员的用户名，所以我们要尝试看管理员的用户名和密码</figcaption>
-    </figure>
-  
-<h2 id="我们尝试查看admin表中的数据"><a href="#我们尝试查看admin表中的数据" class="headerlink" title="我们尝试查看admin表中的数据"></a>我们尝试查看admin表中的数据</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlmap -u <span class="string">&quot;这里放入网站地址&quot;</span> -D <span class="string">&quot;这里放入数据库名&quot;</span> -T <span class="string">&quot;这里放入表名&quot;</span> --dump</span><br></pre></td></tr></table></figure>
-<h2 id="然后回车我们就能看到密码了"><a href="#然后回车我们就能看到密码了" class="headerlink" title="然后回车我们就能看到密码了"></a>然后回车我们就能看到密码了</h2>
-    <figure class="figure-image">
-      <img src="https://fy-yun.github.io/api/wp/img/kali4.png" alt="如图所示，我们发现管理员的密码是hellohack" loading="lazy" />
-      <figcaption>如图所示，我们发现管理员的密码是hellohack</figcaption>
-    </figure>
-  
-<p>教程到这里就结束了，当然如果大家想更深入的了解可以自行百度，如果有问题可以联系我，</p>
+<h3 id="4-选择新建筛选器，然后选择新建文件夹，命名为imgui"><a href="#4-选择新建筛选器，然后选择新建文件夹，命名为imgui" class="headerlink" title="4.选择新建筛选器，然后选择新建文件夹，命名为imgui"></a>4.选择新建筛选器，然后选择新建文件夹，命名为imgui</h3><img src="https://onedrive.live.com/embed?resid=2182F48B953D36F8%2114498&authkey=%21AGVgAeqg9ED2pjg&width=385&height=259" width="385" height="259" />
 
+<h3 id="5-将imgui文件夹中的内容拖入到项目文件夹中，或者选择一部分拖入到项目文件夹中，其中win32和dx11是最重要的，搭建必备，你们可以按照我选择的来，也可以全部拖入。"><a href="#5-将imgui文件夹中的内容拖入到项目文件夹中，或者选择一部分拖入到项目文件夹中，其中win32和dx11是最重要的，搭建必备，你们可以按照我选择的来，也可以全部拖入。" class="headerlink" title="5.将imgui文件夹中的内容拖入到项目文件夹中，或者选择一部分拖入到项目文件夹中，其中win32和dx11是最重要的，搭建必备，你们可以按照我选择的来，也可以全部拖入。"></a>5.将imgui文件夹中的内容拖入到项目文件夹中，或者选择一部分拖入到项目文件夹中，其中win32和dx11是最重要的，搭建必备，你们可以按照我选择的来，也可以全部拖入。</h3><img src="https://onedrive.live.com/embed?resid=2182F48B953D36F8%2114499&authkey=%21AN0vbtnjcEY6cnM&width=338&height=640" width="338" height="640" />
+
+<h3 id="创建好了以后就可以开始写代码了，首先我们要理解c-中的h和cpp结尾的区别，在c-中以h结尾的文件是头文件，在cpp结尾的文件是源文件，头文件包含类、结构体、函数的声明、宏定义和类型定义等，通常用于存放函数原型、类的声明、常量定义和类型别名等，头文件中通常不包含具体的函数或类的实现代码，只包含函数或类的声明和相关信息"><a href="#创建好了以后就可以开始写代码了，首先我们要理解c-中的h和cpp结尾的区别，在c-中以h结尾的文件是头文件，在cpp结尾的文件是源文件，头文件包含类、结构体、函数的声明、宏定义和类型定义等，通常用于存放函数原型、类的声明、常量定义和类型别名等，头文件中通常不包含具体的函数或类的实现代码，只包含函数或类的声明和相关信息" class="headerlink" title="创建好了以后就可以开始写代码了，首先我们要理解c++中的h和cpp结尾的区别，在c++中以h结尾的文件是头文件，在cpp结尾的文件是源文件，头文件包含类、结构体、函数的声明、宏定义和类型定义等，通常用于存放函数原型、类的声明、常量定义和类型别名等，头文件中通常不包含具体的函数或类的实现代码，只包含函数或类的声明和相关信息"></a>创建好了以后就可以开始写代码了，首先我们要理解c++中的h和cpp结尾的区别，在c++中以h结尾的文件是头文件，在cpp结尾的文件是源文件，头文件包含类、结构体、函数的声明、宏定义和类型定义等，通常用于存放函数原型、类的声明、常量定义和类型别名等，头文件中通常不包含具体的函数或类的实现代码，只包含函数或类的声明和相关信息</h3><h3 id="而源文件包含函数和类的具体实现代码，实现了头文件中声明的函数或类的具体定义，源文件中可以包含全局变量、局部变量、函数定义、类成员函数的实现等"><a href="#而源文件包含函数和类的具体实现代码，实现了头文件中声明的函数或类的具体定义，源文件中可以包含全局变量、局部变量、函数定义、类成员函数的实现等" class="headerlink" title="而源文件包含函数和类的具体实现代码，实现了头文件中声明的函数或类的具体定义，源文件中可以包含全局变量、局部变量、函数定义、类成员函数的实现等"></a>而源文件包含函数和类的具体实现代码，实现了头文件中声明的函数或类的具体定义，源文件中可以包含全局变量、局部变量、函数定义、类成员函数的实现等</h3><h3 id="好了既然知道头文件和源文件的区别我们就可以开始写代码了"><a href="#好了既然知道头文件和源文件的区别我们就可以开始写代码了" class="headerlink" title="好了既然知道头文件和源文件的区别我们就可以开始写代码了"></a>好了既然知道头文件和源文件的区别我们就可以开始写代码了</h3><h3 id="1-首先我们在头文件区域右键，点击添加，新建项，在弹出的界面中选择h结尾的头文件，并且命名然后确定"><a href="#1-首先我们在头文件区域右键，点击添加，新建项，在弹出的界面中选择h结尾的头文件，并且命名然后确定" class="headerlink" title="1.首先我们在头文件区域右键，点击添加，新建项，在弹出的界面中选择h结尾的头文件，并且命名然后确定"></a>1.首先我们在头文件区域右键，点击添加，新建项，在弹出的界面中选择h结尾的头文件，并且命名然后确定</h3><img src="https://onedrive.live.com/embed?resid=2182F48B953D36F8%2114500&authkey=%21AK5eU5PY47R7Dtc&width=684&height=363" width="684" height="363" />
+
+<h3 id="2-然后我们在源文件的位置右键点击添加，新建项，在弹出的界面中选择cpp结尾的源文件，并且命名然后确定"><a href="#2-然后我们在源文件的位置右键点击添加，新建项，在弹出的界面中选择cpp结尾的源文件，并且命名然后确定" class="headerlink" title="2.然后我们在源文件的位置右键点击添加，新建项，在弹出的界面中选择cpp结尾的源文件，并且命名然后确定"></a>2.然后我们在源文件的位置右键点击添加，新建项，在弹出的界面中选择cpp结尾的源文件，并且命名然后确定</h3><h3 id="这样我们就得到了最简单的框架了，但是还不能直接运行"><a href="#这样我们就得到了最简单的框架了，但是还不能直接运行" class="headerlink" title="这样我们就得到了最简单的框架了，但是还不能直接运行"></a>这样我们就得到了最简单的框架了，但是还不能直接运行</h3><h3 id="当你完成到这一步时，我们就可以开始尝试编写了，首先在文件中写入以下代码"><a href="#当你完成到这一步时，我们就可以开始尝试编写了，首先在文件中写入以下代码" class="headerlink" title="当你完成到这一步时，我们就可以开始尝试编写了，首先在文件中写入以下代码"></a>当你完成到这一步时，我们就可以开始尝试编写了，首先在文件中写入以下代码</h3><img src="https://onedrive.live.com/embed?resid=2182F48B953D36F8%2114502&authkey=%21AM7Q-VmBzQ5_Bvw&width=834&height=634" width="834" height="634" />
+
+<h3 id="我们需要把所有h结尾的头文件导入，并整合，然后就需要在cpp结尾的文件中导入这个头文件，导入头文件和导入所有h结尾的一样，但是只需要导入你的头文件即可，因为你的头文件包含其他的头文件，所以只需要导入你的头文件即可"><a href="#我们需要把所有h结尾的头文件导入，并整合，然后就需要在cpp结尾的文件中导入这个头文件，导入头文件和导入所有h结尾的一样，但是只需要导入你的头文件即可，因为你的头文件包含其他的头文件，所以只需要导入你的头文件即可" class="headerlink" title="我们需要把所有h结尾的头文件导入，并整合，然后就需要在cpp结尾的文件中导入这个头文件，导入头文件和导入所有h结尾的一样，但是只需要导入你的头文件即可，因为你的头文件包含其他的头文件，所以只需要导入你的头文件即可"></a>我们需要把所有h结尾的头文件导入，并整合，然后就需要在cpp结尾的文件中导入这个头文件，导入头文件和导入所有h结尾的一样，但是只需要导入你的头文件即可，因为你的头文件包含其他的头文件，所以只需要导入你的头文件即可</h3><h3 id="然后就需要去cpp中编写逻辑和功能了，这边建议去imgui官方示例直接拿一部分架构，代码过长就不放出了"><a href="#然后就需要去cpp中编写逻辑和功能了，这边建议去imgui官方示例直接拿一部分架构，代码过长就不放出了" class="headerlink" title="然后就需要去cpp中编写逻辑和功能了，这边建议去imgui官方示例直接拿一部分架构，代码过长就不放出了"></a>然后就需要去cpp中编写逻辑和功能了，这边建议去imgui官方示例直接拿一部分架构，代码过长就不放出了</h3><h3 id="下期见"><a href="#下期见" class="headerlink" title="下期见"></a>下期见</h3>
       </section>
 
       
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-      <div class="card-cover" background-image-lazy data-img="https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8QQhtpdELCA1xw1_?e=ygSvQQ"></div>
-    
-    <div class="card-text">
-      
-        <a href="/2024/02/11/%E5%AE%89%E5%8D%93%E6%9C%A8%E9%A9%AC/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">安卓木马</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
-      <div class="card-cover" background-image-lazy data-img="https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!Avg2PZWL9IIh8G5DrR9xxn8bvFQ1?e=ab7qSr"></div>
+      <div class="card-cover" background-image-lazy data-img="https://onw.cc/1drv.ms.php?url=https://1drv.ms/i/s!Avg2PZWL9IIh8FVQuDEyDLLANkqR?e=cN1QRq"></div>
     
     <div class="card-text">
       
-        <a href="/2024/01/20/idex/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">Termux安装KALI系统</h2>
+        <a href="/2024/04/15/app/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">安卓好用的开源app分享</h2>
         </a>
       
       <div class="card-text--row">Older</div>

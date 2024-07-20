@@ -1,21 +1,27 @@
 {
-  "name": "fybk",
   "type": "module",
-  "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@9.5.0",
+  "homepage": "https://valaxy.site",
   "scripts": {
-    "build": "npm run build:ssg",
-    "build:spa": "valaxy build",
-    "build:ssg": "valaxy build --ssg",
-    "dev": "valaxy",
-    "rss": "valaxy rss",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "valaxy": "0.19.2",
-    "valaxy-theme-yun": "0.19.2"
+    "build": "npm run build:demo",
+    "build:demo": "npm -C demo run build",
+    "ci:publish": "pnpm -r publish --access public --no-git-checks",
+    "dev": "npm run demo",
+    "demo": "npm -C demo run dev",
+    "lint": "eslint .",
+    "release": "cd theme && git add -A && bumpp",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "@antfu/eslint-config": "2.22.0-beta.3",
+    "@unocss/eslint-plugin": "^0.61.3",
+    "bumpp": "^9.4.1",
+    "eslint": "^9.6.0",
+    "eslint-plugin-format": "^0.1.2",
+    "typescript": "^5.5.3",
+    "valaxy-theme-starter": "workspace:*",
+    "vitest": "^1.6.0",
+    "vue-tsc": "^2.0.26"
   }
 }

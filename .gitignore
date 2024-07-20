@@ -1,20 +1,62 @@
-# valaxy
+# custom
+package-lock.json
+yarn.lock
 
-valaxy-fuse-list.json
+pnpm-global
 
-# vite-ssg
+# vite plugin
+components.d.ts
+auto-imports.d.ts
 
 .vite-ssg-dist
 .vite-ssg-temp
 
+dist/
+dist-ssr
+*.local
+
 temp/
 
-.DS_Store
-*.local
-dist
-dist-ssr
-node_modules
-.idea/
-*.log
+# local env files
+.env.local
+.env.*.local
 
-components.d.ts
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependencies
+node_modules/
+
+# Coverage
+coverage
+
+# Transpiled files
+build/
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+# plugins
+.VSCodeCounter

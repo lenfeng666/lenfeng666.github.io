@@ -1,4 +1,6 @@
 {
+  // we need tsconfig.json to compile without
+  // error: This is likely not portable. A type annotation is necessary.
   "compilerOptions": {
     "target": "ESNext",
     "jsx": "preserve",
@@ -8,7 +10,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "types": [
-      "vitest",
       "vite/client",
       "vite-plugin-vue-layouts/client"
     ],

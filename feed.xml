@@ -4,7 +4,7 @@
         <title>枫叶个人博客</title>
         <link>https://starter.valaxy.site/</link>
         <description>Valaxy Theme Starter Preview.</description>
-        <lastBuildDate>Sat, 20 Jul 2024 10:30:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jul 2024 15:20:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,17 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶</copyright>
         <atom:link href="https://starter.valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[公告]]></title>
+            <link>https://starter.valaxy.site/posts/公告</link>
+            <guid>https://starter.valaxy.site/posts/公告</guid>
+            <pubDate>Sat, 20 Jul 2024 15:19:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>公告</h3>
+<p>枫叶博客正式开始移植</p>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶)</author>
+        </item>
         <item>
             <title><![CDATA[i18n]]></title>
             <link>https://starter.valaxy.site/posts/i18n</link>

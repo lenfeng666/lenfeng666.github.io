@@ -4,7 +4,7 @@
         <title>枫叶个人博客</title>
         <link>https://starter.valaxy.site/</link>
         <description>Valaxy Theme Starter Preview.</description>
-        <lastBuildDate>Sun, 21 Jul 2024 09:44:32 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jul 2024 15:45:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶</copyright>
         <atom:link href="https://starter.valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[小米线刷升级系统]]></title>
+            <link>https://starter.valaxy.site/posts/小米线刷升级系统</link>
+            <guid>https://starter.valaxy.site/posts/小米线刷升级系统</guid>
+            <pubDate>Sun, 21 Jul 2024 14:35:04 GMT</pubDate>
+            <content:encoded><![CDATA[<p>本期教学刷坤，为什么要出这一篇，很简单我容易忘好了也不说废话了</p>
+<p>首先下载刷机包，本期教学线刷以小米手机为例我们访问[<a href="http://XiaomiROM.com">XiaomiROM.com</a> - 小米 ROM | MIUI、澎湃OS（Hyper</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶)</author>
+        </item>
         <item>
             <title><![CDATA[Valaxy Test 文章内容测试]]></title>
             <link>https://starter.valaxy.site/posts/test</link>

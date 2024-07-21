@@ -4,7 +4,7 @@
         <title>枫叶个人博客</title>
         <link>https://starter.valaxy.site/</link>
         <description>Valaxy Theme Starter Preview.</description>
-        <lastBuildDate>Sat, 20 Jul 2024 15:20:02 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jul 2024 09:44:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,13 +15,16 @@
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶</copyright>
         <atom:link href="https://starter.valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[公告]]></title>
-            <link>https://starter.valaxy.site/posts/公告</link>
-            <guid>https://starter.valaxy.site/posts/公告</guid>
-            <pubDate>Sat, 20 Jul 2024 15:19:29 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>公告</h3>
-<p>枫叶博客正式开始移植</p>
-<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
+            <title><![CDATA[Valaxy Test 文章内容测试]]></title>
+            <link>https://starter.valaxy.site/posts/test</link>
+            <guid>https://starter.valaxy.site/posts/test</guid>
+            <pubDate>Sun, 21 Jul 2024 09:43:50 GMT</pubDate>
+            <content:encoded><![CDATA[<p>::: zh-CN</p>
+<p>[[toc]]</p>
+<p>标题是一级标题</p>
+<h2>二级标题 {lang=&quot;zh-CN&quot;}</h2>
+<h3>三级标题 {lang=&quot;zh-CN&quot;}</h3>
+<h4>四级标题 {lang=&quot;zh-C</h4>
 <br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (枫叶)</author>
         </item>
@@ -29,7 +32,7 @@
             <title><![CDATA[i18n]]></title>
             <link>https://starter.valaxy.site/posts/i18n</link>
             <guid>https://starter.valaxy.site/posts/i18n</guid>
-            <pubDate>Thu, 11 Jul 2024 15:18:05 GMT</pubDate>
+            <pubDate>Sun, 21 Jul 2024 09:43:48 GMT</pubDate>
             <content:encoded><![CDATA[<p>::: tip</p>
 <p>You can click this button to toggle locales.</p>
 <p>:::</p>
@@ -38,16 +41,13 @@
             <author>i@valaxy.site (枫叶)</author>
         </item>
         <item>
-            <title><![CDATA[Valaxy Test 文章内容测试]]></title>
-            <link>https://starter.valaxy.site/posts/test</link>
-            <guid>https://starter.valaxy.site/posts/test</guid>
-            <pubDate>Thu, 11 Jul 2024 15:18:05 GMT</pubDate>
-            <content:encoded><![CDATA[<p>::: zh-CN</p>
-<p>[[toc]]</p>
-<p>标题是一级标题</p>
-<h2>二级标题 {lang=&quot;zh-CN&quot;}</h2>
-<h3>三级标题 {lang=&quot;zh-CN&quot;}</h3>
-<h4>四级标题 {lang=&quot;zh-C</h4>
+            <title><![CDATA[公告]]></title>
+            <link>https://starter.valaxy.site/posts/公告</link>
+            <guid>https://starter.valaxy.site/posts/公告</guid>
+            <pubDate>Sun, 21 Jul 2024 08:30:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>公告</h3>
+<p>枫叶博客正式开始移植</p>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
 <br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (枫叶)</author>
         </item>

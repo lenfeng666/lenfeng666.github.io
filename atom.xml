@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://starter.valaxy.site/</id>
     <title>枫叶个人博客</title>
-    <updated>2024-07-20T15:20:02.569Z</updated>
+    <updated>2024-07-21T09:44:32.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>枫叶</name>
@@ -15,39 +15,6 @@
     <logo>https://www.yunyoujun.cn/images/avatar.jpg</logo>
     <icon>https://starter.valaxy.site/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2024 © 枫叶</rights>
-    <entry>
-        <title type="html"><![CDATA[公告]]></title>
-        <id>https://starter.valaxy.site/posts/公告</id>
-        <link href="https://starter.valaxy.site/posts/公告"/>
-        <updated>2024-07-20T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3>公告</h3>
-<p>枫叶博客正式开始移植</p>
-<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
-        <author>
-            <name>枫叶</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2024-07-20T15:19:29.968Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[i18n]]></title>
-        <id>https://starter.valaxy.site/posts/i18n</id>
-        <link href="https://starter.valaxy.site/posts/i18n"/>
-        <updated>2022-04-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>::: tip</p>
-<p>You can click this button to toggle locales.</p>
-<p>:::</p>
-<div class="text-center">
-  <!-- <YunTo<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
-        <author>
-            <name>枫叶</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2024-07-11T15:18:05.000Z</published>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Valaxy Test 文章内容测试]]></title>
         <id>https://starter.valaxy.site/posts/test</id>
@@ -65,7 +32,40 @@
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2024-07-11T15:18:05.000Z</published>
+        <published>2024-07-21T09:43:50.316Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[i18n]]></title>
+        <id>https://starter.valaxy.site/posts/i18n</id>
+        <link href="https://starter.valaxy.site/posts/i18n"/>
+        <updated>2022-04-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: tip</p>
+<p>You can click this button to toggle locales.</p>
+<p>:::</p>
+<div class="text-center">
+  <!-- <YunTo<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-21T09:43:48.362Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[公告]]></title>
+        <id>https://starter.valaxy.site/posts/公告</id>
+        <link href="https://starter.valaxy.site/posts/公告"/>
+        <updated>2024-07-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>公告</h3>
+<p>枫叶博客正式开始移植</p>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-21T08:30:37.881Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello, Valaxy!]]></title>

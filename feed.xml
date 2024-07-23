@@ -4,7 +4,7 @@
         <title>枫叶个人博客</title>
         <link>https://starter.valaxy.site/</link>
         <description>Valaxy Theme Starter Preview.</description>
-        <lastBuildDate>Sun, 21 Jul 2024 15:45:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jul 2024 09:11:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶</copyright>
         <atom:link href="https://starter.valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
+            <link>https://starter.valaxy.site/posts/pdb</link>
+            <guid>https://starter.valaxy.site/posts/pdb</guid>
+            <pubDate>Tue, 23 Jul 2024 09:10:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
+<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶)</author>
+        </item>
         <item>
             <title><![CDATA[小米线刷升级系统]]></title>
             <link>https://starter.valaxy.site/posts/小米线刷升级系统</link>

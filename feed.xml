@@ -4,7 +4,7 @@
         <title>枫叶个人博客</title>
         <link>https://starter.valaxy.site/</link>
         <description>Valaxy Theme Starter Preview.</description>
-        <lastBuildDate>Tue, 23 Jul 2024 18:35:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jul 2024 08:54:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,31 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶</copyright>
         <atom:link href="https://starter.valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[风格化草]]></title>
+            <link>https://starter.valaxy.site/posts/风格化草</link>
+            <guid>https://starter.valaxy.site/posts/风格化草</guid>
+            <pubDate>Thu, 25 Jul 2024 08:51:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h4>本期我们讲解一下如何在ue5.4引擎中实现风格化的草地</h4>
+<p>在ue引擎中实现风格化的有很多方式我提供一个还不错的实现方式</p>
+<p>首先就是我们新建一个材质球，这个材质球我们要实现的功能有</p>
+<ul>
+<li>[x</li>
+</ul>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶)</author>
+        </item>
+        <item>
+            <title><![CDATA[公告]]></title>
+            <link>https://starter.valaxy.site/posts/公告</link>
+            <guid>https://starter.valaxy.site/posts/公告</guid>
+            <pubDate>Thu, 25 Jul 2024 08:43:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>公告</h3>
+<p>枫叶博客正式开始移植</p>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶)</author>
+        </item>
         <item>
             <title><![CDATA[小米线刷升级系统]]></title>
             <link>https://starter.valaxy.site/posts/小米线刷升级系统</link>
@@ -31,55 +56,6 @@
             <pubDate>Tue, 23 Jul 2024 17:45:38 GMT</pubDate>
             <content:encoded><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
 <h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
-        </item>
-        <item>
-            <title><![CDATA[Valaxy Test 文章内容测试]]></title>
-            <link>https://starter.valaxy.site/posts/test</link>
-            <guid>https://starter.valaxy.site/posts/test</guid>
-            <pubDate>Sun, 21 Jul 2024 09:43:50 GMT</pubDate>
-            <content:encoded><![CDATA[<p>::: zh-CN</p>
-<p>[[toc]]</p>
-<p>标题是一级标题</p>
-<h2>二级标题 {lang=&quot;zh-CN&quot;}</h2>
-<h3>三级标题 {lang=&quot;zh-CN&quot;}</h3>
-<h4>四级标题 {lang=&quot;zh-C</h4>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
-        </item>
-        <item>
-            <title><![CDATA[i18n]]></title>
-            <link>https://starter.valaxy.site/posts/i18n</link>
-            <guid>https://starter.valaxy.site/posts/i18n</guid>
-            <pubDate>Sun, 21 Jul 2024 09:43:48 GMT</pubDate>
-            <content:encoded><![CDATA[<p>::: tip</p>
-<p>You can click this button to toggle locales.</p>
-<p>:::</p>
-<div class="text-center">
-  <!-- <YunTo<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
-        </item>
-        <item>
-            <title><![CDATA[公告]]></title>
-            <link>https://starter.valaxy.site/posts/公告</link>
-            <guid>https://starter.valaxy.site/posts/公告</guid>
-            <pubDate>Sun, 21 Jul 2024 08:30:37 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>公告</h3>
-<p>枫叶博客正式开始移植</p>
-<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
-        </item>
-        <item>
-            <title><![CDATA[Hello, Valaxy!]]></title>
-            <link>https://starter.valaxy.site/posts/hello-valaxy</link>
-            <guid>https://starter.valaxy.site/posts/hello-valaxy</guid>
-            <pubDate>Wed, 23 Mar 2022 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>Hello, Valaxy!</h2>
-<p>English</p>
-<p><strong>English Bold</strong></p>
-<pre><code class="language-ts">import type { ThemeConfig } from 'valaxy-theme-</code></pre>
 <br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (枫叶)</author>
         </item>

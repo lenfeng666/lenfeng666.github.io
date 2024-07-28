@@ -1,63 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>枫叶个人博客</title>
-        <link>https://starter.valaxy.site/</link>
-        <description>Valaxy Theme Starter Preview.</description>
-        <lastBuildDate>Thu, 25 Jul 2024 08:54:30 GMT</lastBuildDate>
+        <title>枫叶的个人博客</title>
+        <link>https://fengyegf.cn/</link>
+        <description>一个程序员的快乐老家</description>
+        <lastBuildDate>Sun, 28 Jul 2024 12:58:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>枫叶个人博客</title>
-            <url>https://www.yunyoujun.cn/images/avatar.jpg</url>
-            <link>https://starter.valaxy.site/</link>
+            <title>枫叶的个人博客</title>
+            <url>http://q1.qlogo.cn/g?b=qq&amp;nk=827737456&amp;s=100</url>
+            <link>https://fengyegf.cn/</link>
         </image>
-        <copyright>CC BY-NC-SA 4.0 2024 © 枫叶</copyright>
-        <atom:link href="https://starter.valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <copyright>CC BY-NC-SA 4.0 2024 © 枫叶崽</copyright>
+        <atom:link href="https://fengyegf.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
+            <link>https://fengyegf.cn/posts/pdb</link>
+            <guid>https://fengyegf.cn/posts/pdb</guid>
+            <pubDate>Sun, 28 Jul 2024 12:31:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
+<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/pdb" target="_blank">https://fengyegf.cn/posts/pdb</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
+        </item>
+        <item>
+            <title><![CDATA[UE项目启动崩溃解决方法]]></title>
+            <link>https://fengyegf.cn/posts/UE项目启动崩溃解决方法</link>
+            <guid>https://fengyegf.cn/posts/UE项目启动崩溃解决方法</guid>
+            <pubDate>Sun, 28 Jul 2024 12:30:46 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>本期带来ue引擎的c++项目启动时出现崩溃的解决方法，其实崩溃的原因有很多种，本期讲解我遇到的崩溃原因和解决方法</h3>
+<p>&lt;img src=&quot;<a href="https://onedrive.live.com/emb">https://onedrive.live.com/emb</a></p>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/UE项目启动崩溃解决方法" target="_blank">https://fengyegf.cn/posts/UE项目启动崩溃解决方法</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
+        </item>
         <item>
             <title><![CDATA[风格化草]]></title>
-            <link>https://starter.valaxy.site/posts/风格化草</link>
-            <guid>https://starter.valaxy.site/posts/风格化草</guid>
-            <pubDate>Thu, 25 Jul 2024 08:51:12 GMT</pubDate>
+            <link>https://fengyegf.cn/posts/风格化草</link>
+            <guid>https://fengyegf.cn/posts/风格化草</guid>
+            <pubDate>Sun, 28 Jul 2024 12:30:13 GMT</pubDate>
             <content:encoded><![CDATA[<h4>本期我们讲解一下如何在ue5.4引擎中实现风格化的草地</h4>
 <p>在ue引擎中实现风格化的有很多方式我提供一个还不错的实现方式</p>
 <p>首先就是我们新建一个材质球，这个材质球我们要实现的功能有</p>
 <ul>
 <li>[x</li>
 </ul>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/风格化草" target="_blank">https://fengyegf.cn/posts/风格化草</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
         </item>
         <item>
             <title><![CDATA[公告]]></title>
-            <link>https://starter.valaxy.site/posts/公告</link>
-            <guid>https://starter.valaxy.site/posts/公告</guid>
-            <pubDate>Thu, 25 Jul 2024 08:43:12 GMT</pubDate>
+            <link>https://fengyegf.cn/posts/公告</link>
+            <guid>https://fengyegf.cn/posts/公告</guid>
+            <pubDate>Sun, 28 Jul 2024 10:01:07 GMT</pubDate>
             <content:encoded><![CDATA[<h3>公告</h3>
 <p>枫叶博客正式开始移植</p>
-<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/公告" target="_blank">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
         </item>
         <item>
             <title><![CDATA[小米线刷升级系统]]></title>
-            <link>https://starter.valaxy.site/posts/小米线刷升级系统</link>
-            <guid>https://starter.valaxy.site/posts/小米线刷升级系统</guid>
+            <link>https://fengyegf.cn/posts/小米线刷升级系统</link>
+            <guid>https://fengyegf.cn/posts/小米线刷升级系统</guid>
             <pubDate>Tue, 23 Jul 2024 17:46:11 GMT</pubDate>
             <content:encoded><![CDATA[<p>本期教学刷坤，为什么要出这一篇，很简单我容易忘好了也不说废话了</p>
 <p>首先下载刷机包，本期教学线刷以小米手机为例我们访问[<a href="http://XiaomiROM.com">XiaomiROM.com</a> - 小米 ROM | MIUI、澎湃OS（Hyper</p>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
-        </item>
-        <item>
-            <title><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
-            <link>https://starter.valaxy.site/posts/pdb</link>
-            <guid>https://starter.valaxy.site/posts/pdb</guid>
-            <pubDate>Tue, 23 Jul 2024 17:45:38 GMT</pubDate>
-            <content:encoded><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
-<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶)</author>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/小米线刷升级系统" target="_blank">https://fengyegf.cn/posts/小米线刷升级系统</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
         </item>
     </channel>
 </rss>

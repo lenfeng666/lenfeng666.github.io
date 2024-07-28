@@ -1,60 +1,67 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "枫叶个人博客",
-    "home_page_url": "https://starter.valaxy.site/",
-    "feed_url": "https://starter.valaxy.site/feed.json",
-    "description": "Valaxy Theme Starter Preview.",
-    "icon": "https://www.yunyoujun.cn/images/avatar.jpg",
+    "title": "枫叶的个人博客",
+    "home_page_url": "https://fengyegf.cn/",
+    "feed_url": "https://fengyegf.cn/feed.json",
+    "description": "一个程序员的快乐老家",
+    "icon": "http://q1.qlogo.cn/g?b=qq&nk=827737456&s=100",
     "author": {
-        "name": "枫叶",
+        "name": "枫叶崽",
         "url": "https://valaxy.site"
     },
     "items": [
         {
-            "id": "",
-            "content_html": "<h4>本期我们讲解一下如何在ue5.4引擎中实现风格化的草地</h4>\n<p>在ue引擎中实现风格化的有很多方式我提供一个还不错的实现方式</p>\n<p>首先就是我们新建一个材质球，这个材质球我们要实现的功能有</p>\n<ul>\n<li>[x</li>\n</ul>\n<br/><p>访问 <a href=\"\" target=\"_blank\"></a> 阅读全文。</p>",
-            "url": "https://starter.valaxy.site/posts/风格化草",
+            "content_html": "<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>\n<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/pdb\" target=\"_blank\">https://fengyegf.cn/posts/pdb</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/pdb",
+            "title": "虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb",
+            "date_modified": "2024-07-23T08:49:13.000Z",
+            "date_published": "2024-07-28T12:31:00.521Z",
+            "author": {
+                "name": "枫叶崽",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "content_html": "<h3>本期带来ue引擎的c++项目启动时出现崩溃的解决方法，其实崩溃的原因有很多种，本期讲解我遇到的崩溃原因和解决方法</h3>\n<p>&lt;img src=&quot;<a href=\"https://onedrive.live.com/emb\">https://onedrive.live.com/emb</a></p>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/UE项目启动崩溃解决方法\" target=\"_blank\">https://fengyegf.cn/posts/UE项目启动崩溃解决方法</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/UE项目启动崩溃解决方法",
+            "title": "UE项目启动崩溃解决方法",
+            "date_modified": "2024-07-28T07:02:09.000Z",
+            "date_published": "2024-07-28T12:30:46.700Z",
+            "author": {
+                "name": "枫叶崽",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "content_html": "<h4>本期我们讲解一下如何在ue5.4引擎中实现风格化的草地</h4>\n<p>在ue引擎中实现风格化的有很多方式我提供一个还不错的实现方式</p>\n<p>首先就是我们新建一个材质球，这个材质球我们要实现的功能有</p>\n<ul>\n<li>[x</li>\n</ul>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/风格化草\" target=\"_blank\">https://fengyegf.cn/posts/风格化草</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/风格化草",
             "title": "风格化草",
             "date_modified": "2024-07-25T08:49:40.000Z",
-            "date_published": "2024-07-25T08:51:12.415Z",
+            "date_published": "2024-07-28T12:30:13.824Z",
             "author": {
-                "name": "枫叶",
+                "name": "枫叶崽",
                 "url": "https://valaxy.site"
             }
         },
         {
-            "id": "",
-            "content_html": "<h3>公告</h3>\n<p>枫叶博客正式开始移植</p>\n<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>\n<br/><p>访问 <a href=\"\" target=\"_blank\"></a> 阅读全文。</p>",
-            "url": "https://starter.valaxy.site/posts/公告",
+            "content_html": "<h3>公告</h3>\n<p>枫叶博客正式开始移植</p>\n<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/公告\" target=\"_blank\">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/公告",
             "title": "公告",
             "date_modified": "2024-07-20T00:00:00.000Z",
-            "date_published": "2024-07-25T08:43:12.340Z",
+            "date_published": "2024-07-28T10:01:07.068Z",
             "author": {
-                "name": "枫叶",
+                "name": "枫叶崽",
                 "url": "https://valaxy.site"
             }
         },
         {
-            "id": "",
-            "content_html": "<p>本期教学刷坤，为什么要出这一篇，很简单我容易忘好了也不说废话了</p>\n<p>首先下载刷机包，本期教学线刷以小米手机为例我们访问[<a href=\"http://XiaomiROM.com\">XiaomiROM.com</a> - 小米 ROM | MIUI、澎湃OS（Hyper</p>\n<br/><p>访问 <a href=\"\" target=\"_blank\"></a> 阅读全文。</p>",
-            "url": "https://starter.valaxy.site/posts/小米线刷升级系统",
+            "content_html": "<p>本期教学刷坤，为什么要出这一篇，很简单我容易忘好了也不说废话了</p>\n<p>首先下载刷机包，本期教学线刷以小米手机为例我们访问[<a href=\"http://XiaomiROM.com\">XiaomiROM.com</a> - 小米 ROM | MIUI、澎湃OS（Hyper</p>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/小米线刷升级系统\" target=\"_blank\">https://fengyegf.cn/posts/小米线刷升级系统</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/小米线刷升级系统",
             "title": "小米线刷升级系统",
             "date_modified": "2024-07-21T12:09:19.000Z",
             "date_published": "2024-07-23T17:46:11.275Z",
             "author": {
-                "name": "枫叶",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>\n<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>\n<br/><p>访问 <a href=\"\" target=\"_blank\"></a> 阅读全文。</p>",
-            "url": "https://starter.valaxy.site/posts/pdb",
-            "title": "虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb",
-            "date_modified": "2024-07-23T08:49:13.000Z",
-            "date_published": "2024-07-23T17:45:38.892Z",
-            "author": {
-                "name": "枫叶",
+                "name": "枫叶崽",
                 "url": "https://valaxy.site"
             }
         }

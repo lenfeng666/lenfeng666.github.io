@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://starter.valaxy.site/</id>
-    <title>枫叶个人博客</title>
-    <updated>2024-07-25T08:54:30.986Z</updated>
+    <id>https://fengyegf.cn/</id>
+    <title>枫叶的个人博客</title>
+    <updated>2024-07-28T12:58:01.136Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
-        <name>枫叶</name>
+        <name>枫叶崽</name>
         <email>i@valaxy.site</email>
         <uri>https://valaxy.site</uri>
     </author>
-    <link rel="alternate" href="https://starter.valaxy.site/"/>
-    <link rel="self" href="https://starter.valaxy.site/atom.xml"/>
-    <subtitle>Valaxy Theme Starter Preview.</subtitle>
-    <logo>https://www.yunyoujun.cn/images/avatar.jpg</logo>
-    <icon>https://starter.valaxy.site/favicon.svg</icon>
-    <rights>CC BY-NC-SA 4.0 2024 © 枫叶</rights>
+    <link rel="alternate" href="https://fengyegf.cn/"/>
+    <link rel="self" href="https://fengyegf.cn/atom.xml"/>
+    <subtitle>一个程序员的快乐老家</subtitle>
+    <logo>http://q1.qlogo.cn/g?b=qq&amp;nk=827737456&amp;s=100</logo>
+    <icon>https://fengyegf.cn/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © 枫叶崽</rights>
+    <entry>
+        <title type="html"><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
+        <id>https://fengyegf.cn/posts/pdb</id>
+        <link href="https://fengyegf.cn/posts/pdb"/>
+        <updated>2024-07-23T08:49:13.000Z</updated>
+        <content type="html"><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
+<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/pdb" target="_blank">https://fengyegf.cn/posts/pdb</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶崽</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-28T12:31:00.521Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UE项目启动崩溃解决方法]]></title>
+        <id>https://fengyegf.cn/posts/UE项目启动崩溃解决方法</id>
+        <link href="https://fengyegf.cn/posts/UE项目启动崩溃解决方法"/>
+        <updated>2024-07-28T07:02:09.000Z</updated>
+        <content type="html"><![CDATA[<h3>本期带来ue引擎的c++项目启动时出现崩溃的解决方法，其实崩溃的原因有很多种，本期讲解我遇到的崩溃原因和解决方法</h3>
+<p>&lt;img src=&quot;<a href="https://onedrive.live.com/emb">https://onedrive.live.com/emb</a></p>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/UE项目启动崩溃解决方法" target="_blank">https://fengyegf.cn/posts/UE项目启动崩溃解决方法</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶崽</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-28T12:30:46.700Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[风格化草]]></title>
-        <id>https://starter.valaxy.site/posts/风格化草</id>
-        <link href="https://starter.valaxy.site/posts/风格化草"/>
+        <id>https://fengyegf.cn/posts/风格化草</id>
+        <link href="https://fengyegf.cn/posts/风格化草"/>
         <updated>2024-07-25T08:49:40.000Z</updated>
         <content type="html"><![CDATA[<h4>本期我们讲解一下如何在ue5.4引擎中实现风格化的草地</h4>
 <p>在ue引擎中实现风格化的有很多方式我提供一个还不错的实现方式</p>
@@ -26,58 +56,43 @@
 <ul>
 <li>[x</li>
 </ul>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/风格化草" target="_blank">https://fengyegf.cn/posts/风格化草</a> 阅读全文。</p>]]></content>
         <author>
-            <name>枫叶</name>
+            <name>枫叶崽</name>
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2024-07-25T08:51:12.415Z</published>
+        <published>2024-07-28T12:30:13.824Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[公告]]></title>
-        <id>https://starter.valaxy.site/posts/公告</id>
-        <link href="https://starter.valaxy.site/posts/公告"/>
+        <id>https://fengyegf.cn/posts/公告</id>
+        <link href="https://fengyegf.cn/posts/公告"/>
         <updated>2024-07-20T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3>公告</h3>
 <p>枫叶博客正式开始移植</p>
-<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私</p>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/公告" target="_blank">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>]]></content>
         <author>
-            <name>枫叶</name>
+            <name>枫叶崽</name>
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2024-07-25T08:43:12.340Z</published>
+        <published>2024-07-28T10:01:07.068Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[小米线刷升级系统]]></title>
-        <id>https://starter.valaxy.site/posts/小米线刷升级系统</id>
-        <link href="https://starter.valaxy.site/posts/小米线刷升级系统"/>
+        <id>https://fengyegf.cn/posts/小米线刷升级系统</id>
+        <link href="https://fengyegf.cn/posts/小米线刷升级系统"/>
         <updated>2024-07-21T12:09:19.000Z</updated>
         <content type="html"><![CDATA[<p>本期教学刷坤，为什么要出这一篇，很简单我容易忘好了也不说废话了</p>
 <p>首先下载刷机包，本期教学线刷以小米手机为例我们访问[<a href="http://XiaomiROM.com">XiaomiROM.com</a> - 小米 ROM | MIUI、澎湃OS（Hyper</p>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/小米线刷升级系统" target="_blank">https://fengyegf.cn/posts/小米线刷升级系统</a> 阅读全文。</p>]]></content>
         <author>
-            <name>枫叶</name>
+            <name>枫叶崽</name>
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2024-07-23T17:46:11.275Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
-        <id>https://starter.valaxy.site/posts/pdb</id>
-        <link href="https://starter.valaxy.site/posts/pdb"/>
-        <updated>2024-07-23T08:49:13.000Z</updated>
-        <content type="html"><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
-<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
-<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
-        <author>
-            <name>枫叶</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2024-07-23T17:45:38.892Z</published>
     </entry>
 </feed>

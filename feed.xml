@@ -4,16 +4,38 @@
         <title>枫叶的个人博客</title>
         <link>https://fengyegf.cn/</link>
         <description>一个程序员的快乐老家</description>
-        <lastBuildDate>Sun, 28 Jul 2024 13:23:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jul 2024 18:10:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>枫叶的个人博客</title>
-            <url>http://q1.qlogo.cn/g?b=qq&amp;nk=827737456&amp;s=100</url>
+            <url>https://q1.qlogo.cn/g?b=qq&amp;nk=827737456&amp;s=100</url>
             <link>https://fengyegf.cn/</link>
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶崽</copyright>
         <atom:link href="https://fengyegf.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[安卓手机免root安装宝塔面板]]></title>
+            <link>https://fengyegf.cn/posts/安卓手机免root安装宝塔面板</link>
+            <guid>https://fengyegf.cn/posts/安卓手机免root安装宝塔面板</guid>
+            <pubDate>Tue, 30 Jul 2024 18:09:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>欢迎来到本期教程，本期的安卓手机改造服务器教程。</h3>
+<h3>前言</h3>
+<p>相信大家家中或多或少都有一些废弃的老手机或者不再使用的手机。虽然这些手机通常被搁置一旁，但其实它们仍然有很多用途。这次我们就来</p>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/安卓手机免root安装宝塔面板" target="_blank">https://fengyegf.cn/posts/安卓手机免root安装宝塔面板</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
+        </item>
+        <item>
+            <title><![CDATA[公告]]></title>
+            <link>https://fengyegf.cn/posts/公告</link>
+            <guid>https://fengyegf.cn/posts/公告</guid>
+            <pubDate>Sun, 28 Jul 2024 14:11:35 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>公告</h3>
+<p>枫叶博客正式开始移植</p>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/公告" target="_blank">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
+        </item>
         <item>
             <title><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
             <link>https://fengyegf.cn/posts/pdb</link>
@@ -46,17 +68,6 @@
 <li>[x</li>
 </ul>
 <br/><p>访问 <a href="https://fengyegf.cn/posts/风格化草" target="_blank">https://fengyegf.cn/posts/风格化草</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (枫叶崽)</author>
-        </item>
-        <item>
-            <title><![CDATA[公告]]></title>
-            <link>https://fengyegf.cn/posts/公告</link>
-            <guid>https://fengyegf.cn/posts/公告</guid>
-            <pubDate>Sun, 28 Jul 2024 10:01:07 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>公告</h3>
-<p>枫叶博客正式开始移植</p>
-<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>
-<br/><p>访问 <a href="https://fengyegf.cn/posts/公告" target="_blank">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (枫叶崽)</author>
         </item>
         <item>

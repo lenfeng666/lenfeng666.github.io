@@ -4,12 +4,34 @@
     "home_page_url": "https://fengyegf.cn/",
     "feed_url": "https://fengyegf.cn/feed.json",
     "description": "一个程序员的快乐老家",
-    "icon": "http://q1.qlogo.cn/g?b=qq&nk=827737456&s=100",
+    "icon": "https://q1.qlogo.cn/g?b=qq&nk=827737456&s=100",
     "author": {
         "name": "枫叶崽",
         "url": "https://valaxy.site"
     },
     "items": [
+        {
+            "content_html": "<h3>欢迎来到本期教程，本期的安卓手机改造服务器教程。</h3>\n<h3>前言</h3>\n<p>相信大家家中或多或少都有一些废弃的老手机或者不再使用的手机。虽然这些手机通常被搁置一旁，但其实它们仍然有很多用途。这次我们就来</p>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/安卓手机免root安装宝塔面板\" target=\"_blank\">https://fengyegf.cn/posts/安卓手机免root安装宝塔面板</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/安卓手机免root安装宝塔面板",
+            "title": "安卓手机免root安装宝塔面板",
+            "date_modified": "2024-07-30T13:06:21.000Z",
+            "date_published": "2024-07-30T18:09:11.875Z",
+            "author": {
+                "name": "枫叶崽",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "content_html": "<h3>公告</h3>\n<p>枫叶博客正式开始移植</p>\n<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/公告\" target=\"_blank\">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>",
+            "url": "https://fengyegf.cn/posts/公告",
+            "title": "公告",
+            "date_modified": "2024-07-20T00:00:00.000Z",
+            "date_published": "2024-07-28T14:11:35.841Z",
+            "author": {
+                "name": "枫叶崽",
+                "url": "https://valaxy.site"
+            }
+        },
         {
             "content_html": "<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>\n<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/pdb\" target=\"_blank\">https://fengyegf.cn/posts/pdb</a> 阅读全文。</p>",
             "url": "https://fengyegf.cn/posts/pdb",
@@ -38,17 +60,6 @@
             "title": "风格化草",
             "date_modified": "2024-07-25T08:49:40.000Z",
             "date_published": "2024-07-28T12:30:13.824Z",
-            "author": {
-                "name": "枫叶崽",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "content_html": "<h3>公告</h3>\n<p>枫叶博客正式开始移植</p>\n<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>\n<br/><p>访问 <a href=\"https://fengyegf.cn/posts/公告\" target=\"_blank\">https://fengyegf.cn/posts/公告</a> 阅读全文。</p>",
-            "url": "https://fengyegf.cn/posts/公告",
-            "title": "公告",
-            "date_modified": "2024-07-20T00:00:00.000Z",
-            "date_published": "2024-07-28T10:01:07.068Z",
             "author": {
                 "name": "枫叶崽",
                 "url": "https://valaxy.site"

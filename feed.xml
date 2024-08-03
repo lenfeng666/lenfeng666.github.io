@@ -4,7 +4,7 @@
         <title>枫叶的个人博客</title>
         <link>https://fengyegf.cn/</link>
         <description>一个程序员的快乐老家</description>
-        <lastBuildDate>Thu, 01 Aug 2024 17:40:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Aug 2024 13:32:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,20 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶崽</copyright>
         <atom:link href="https://fengyegf.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[安卓手机免root家庭nas]]></title>
+            <link>https://fengyegf.cn/posts/安卓手机免root家庭nas</link>
+            <guid>https://fengyegf.cn/posts/安卓手机免root家庭nas</guid>
+            <pubDate>Sat, 03 Aug 2024 13:30:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>欢迎来到本期安卓改造计划本期带来家用nas无需复杂配置即可搭建家庭nas让内网设备文件可以实现高效传输</h3>
+<h3>前言</h3>
+<ol>
+<li>家用nas可谓是非常的方便在各个设备上面传输不同的文件</li>
+<li>可以搭</li>
+</ol>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/安卓手机免root家庭nas" target="_blank">https://fengyegf.cn/posts/安卓手机免root家庭nas</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
+        </item>
         <item>
             <title><![CDATA[安卓手机免root安装宝塔面板]]></title>
             <link>https://fengyegf.cn/posts/安卓手机免root安装宝塔面板</link>

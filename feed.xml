@@ -4,7 +4,7 @@
         <title>枫叶的个人博客</title>
         <link>https://fengyegf.cn/</link>
         <description>一个程序员的快乐老家</description>
-        <lastBuildDate>Sat, 03 Aug 2024 13:32:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Aug 2024 13:07:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,23 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2024 © 枫叶崽</copyright>
         <atom:link href="https://fengyegf.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[米游社表情包爬取]]></title>
+            <link>https://fengyegf.cn/posts/米游社表情包爬取</link>
+            <guid>https://fengyegf.cn/posts/米游社表情包爬取</guid>
+            <pubDate>Tue, 06 Aug 2024 13:05:07 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>本期带来米游社表情包爬取但是这个只能获取官方的表情包带来给各位学习交流</h3>
+<h3>工具</h3>
+<ol>
+<li>python</li>
+<li>电脑</li>
+</ol>
+<h3>代码讲解</h3>
+<p>首先对网站发起请求</p>
+<pre><code class="language-python">url = &quot;h</code></pre>
+<br/><p>访问 <a href="https://fengyegf.cn/posts/米游社表情包爬取" target="_blank">https://fengyegf.cn/posts/米游社表情包爬取</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (枫叶崽)</author>
+        </item>
         <item>
             <title><![CDATA[安卓手机免root家庭nas]]></title>
             <link>https://fengyegf.cn/posts/安卓手机免root家庭nas</link>

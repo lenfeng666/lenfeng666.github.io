@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fy.github.io/sitemap-index.xml
+Sitemap: https://starter.valaxy.site/sitemap.xml

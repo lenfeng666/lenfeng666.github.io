@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://starter.valaxy.site/</id>
+    <title>枫叶</title>
+    <updated>2024-08-22T12:46:22.858Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>枫叶</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://starter.valaxy.site/"/>
+    <link rel="self" href="https://starter.valaxy.site/atom.xml"/>
+    <subtitle>Valaxy Theme Starter Preview.</subtitle>
+    <logo>https://www.yunyoujun.cn/images/avatar.jpg</logo>
+    <icon>https://starter.valaxy.site/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © 枫叶</rights>
+    <entry>
+        <title type="html"><![CDATA[公告]]></title>
+        <id>https://starter.valaxy.site/posts/公告</id>
+        <link href="https://starter.valaxy.site/posts/公告"/>
+        <updated>2024-07-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>公告</h3>
+<p>枫叶博客正式开始移植</p>
+<p>为什么会移植，首先hexo框架已经能满足我基本写博客的功能和需求了也有很丰富的主题，但是在之前整理GitHub时因为没注意看文件夹导致我的主博客和私人博客数据</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-08-19T18:25:26.936Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米游社表情包爬取]]></title>
+        <id>https://starter.valaxy.site/posts/米游社表情包爬取</id>
+        <link href="https://starter.valaxy.site/posts/米游社表情包爬取"/>
+        <updated>2024-08-06T12:53:06.000Z</updated>
+        <content type="html"><![CDATA[<h3>本期带来米游社表情包爬取但是这个只能获取官方的表情包带来给各位学习交流</h3>
+<h3>工具</h3>
+<ol>
+<li>python</li>
+<li>电脑</li>
+</ol>
+<h3>代码讲解</h3>
+<p>首先对网站发起请求</p>
+<pre><code class="language-python">url = &quot;h</code></pre>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-08-06T13:05:07.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓手机免root家庭nas]]></title>
+        <id>https://starter.valaxy.site/posts/安卓手机免root家庭nas</id>
+        <link href="https://starter.valaxy.site/posts/安卓手机免root家庭nas"/>
+        <updated>2024-08-02T15:02:26.000Z</updated>
+        <content type="html"><![CDATA[<h3>欢迎来到本期安卓改造计划本期带来家用nas无需复杂配置即可搭建家庭nas让内网设备文件可以实现高效传输</h3>
+<h3>前言</h3>
+<ol>
+<li>家用nas可谓是非常的方便在各个设备上面传输不同的文件</li>
+<li>可以搭</li>
+</ol>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-08-03T13:30:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓手机免root安装宝塔面板]]></title>
+        <id>https://starter.valaxy.site/posts/安卓手机免root安装宝塔面板</id>
+        <link href="https://starter.valaxy.site/posts/安卓手机免root安装宝塔面板"/>
+        <updated>2024-07-30T13:06:21.000Z</updated>
+        <content type="html"><![CDATA[<h3>欢迎来到本期教程，本期的安卓手机改造服务器教程。</h3>
+<h3>前言</h3>
+<p>相信大家家中或多或少都有一些废弃的老手机或者不再使用的手机。虽然这些手机通常被搁置一旁，但其实它们仍然有很多用途。这次我们就来</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-30T18:09:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[虚幻引擎官方纯c++项目启动提示未加载unrealeditor core pdb]]></title>
+        <id>https://starter.valaxy.site/posts/pdb</id>
+        <link href="https://starter.valaxy.site/posts/pdb"/>
+        <updated>2024-07-23T08:49:13.000Z</updated>
+        <content type="html"><![CDATA[<h4>本期讲解我遇到的一个虚幻项目的毛病</h4>
+<h4>visual studio code启动纯c++项目时报错提示未加载unrealeditor core pdb，虽然这个东西可能有大佬能解决，</h4>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-28T12:31:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UE项目启动崩溃解决方法]]></title>
+        <id>https://starter.valaxy.site/posts/UE项目启动崩溃解决方法</id>
+        <link href="https://starter.valaxy.site/posts/UE项目启动崩溃解决方法"/>
+        <updated>2024-07-28T07:02:09.000Z</updated>
+        <content type="html"><![CDATA[<h3>本期带来ue引擎的c++项目启动时出现崩溃的解决方法，其实崩溃的原因有很多种，本期讲解我遇到的崩溃原因和解决方法</h3>
+<p>&lt;img src=&quot;<a href="https://onedrive.live.com/emb">https://onedrive.live.com/emb</a></p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-28T12:30:46.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[风格化草]]></title>
+        <id>https://starter.valaxy.site/posts/风格化草</id>
+        <link href="https://starter.valaxy.site/posts/风格化草"/>
+        <updated>2024-07-25T08:49:40.000Z</updated>
+        <content type="html"><![CDATA[<h4>本期我们讲解一下如何在ue5.4引擎中实现风格化的草地</h4>
+<p>在ue引擎中实现风格化的有很多方式我提供一个还不错的实现方式</p>
+<p>首先就是我们新建一个材质球，这个材质球我们要实现的功能有</p>
+<ul>
+<li>[x</li>
+</ul>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-28T12:30:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米线刷升级系统]]></title>
+        <id>https://starter.valaxy.site/posts/小米线刷升级系统</id>
+        <link href="https://starter.valaxy.site/posts/小米线刷升级系统"/>
+        <updated>2024-07-21T12:09:19.000Z</updated>
+        <content type="html"><![CDATA[<p>本期教学刷坤，为什么要出这一篇，很简单我容易忘好了也不说废话了</p>
+<p>首先下载刷机包，本期教学线刷以小米手机为例我们访问[<a href="http://XiaomiROM.com">XiaomiROM.com</a> - 小米 ROM | MIUI、澎湃OS（Hyper</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>枫叶</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-23T17:46:11.000Z</published>
+    </entry>
+</feed>
